@@ -1,13 +1,43 @@
-# Project Details 
+# MCQs
+## Answer the following questions - 1 marks each 
+Q1	Which of the following properties of an AWS resource is sufficient and necessary to uniquely identify it across all of AWS?
+- [x] ARN
+- [ ] Re and ARN
+- [ ] ARN and Account number
+- [ ] Depends on the resource used
 
-* The customer uploads the invoice data to S3 bucket in a text format as per their guidelines and policies. This bucket will have a policy to auto delete any content that is more than 1 day old (24 hours).
-* An event will trigger in the bucket that will place a message in SNS topic								
-* A custom program running in EC2 will subscribe to the SNS topic and get the message placed by S3 event
-* The program will use S3 API to read from the bucket, parse the content of the file and create a CSV record along with saving the original record in DynamoDB									
-* The program will use S3 API to write CSV record to destination S3 bucket as new S3 object.
-* Athena is used to query the CSV file (query to show aggregated expenses grouped by date).									
+	
+Q2	Which of the following services are available when creating a new table with Athena
+- [ ] RDS and S3
+- [ ] S3 and AW Glue
+- [ ] RDS and EBS
+- [ ] S3 and EBS
 
-![](./images/Project2.png)
+	
+Q3	Which of the following step numbers in Step 2 allowed S3 to publish to the SNS topic created?
+- [ ] 2(a)
+- [ ] 2(c)
+- [ ] 2(d)
+- [ ] 2(b)
+
+	
+Q4	Which port is being used by SNS to send the notification to the custom program?
+- [ ] 8081
+- [ ] 80
+- [ ] 8080
+- [ ] 8065
+
+	
+Q5	How many IAM roles can be attached to an EC2 instance at a time?
+- [ ] 2
+- [ ] 3
+- [x] 1
+- [ ] Depends on the policies required
+
+
+Q6	As a product manager, how would you describe the benefits of this architecture to an client, as compared to an equivalent on-premises architecture?	5
+
+
 # Step 2 - S3 and SNS topic creation
 
 ### Step number	a
@@ -42,8 +72,7 @@ Expected screenshots	1) Creation of SNS topic
 
 
 	Place Screenshot for Step 2(b)
-	![](./images/
-2020-11-14-14-26-01.png)
+	![](./images/2020-11-14-14-26-01.png)
 
 ### Step number	c
 
@@ -147,8 +176,8 @@ scp -i glccp.pem -r ./docproc-new ubuntu@54.146.93.185:/home/ubuntu
 Expected screenshots	
 1) Modifying of the views.py file to point to the target bucket
 ![](./images/2020-11-14-16-47-59.png)
-2) Copying the folder to the EC2 instance															
-![](./images/2020-11-14-16-47-25.png)								
+2) Copying the folder to the EC2 instance	
+![](./images/2020-11-14-16-47-25.png)
 
 # Step 4 - Creation and Verification of SNS subscription and Generation of CSV file
 	
