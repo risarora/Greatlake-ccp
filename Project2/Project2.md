@@ -262,6 +262,50 @@ Expected screenshots	1) Items tab showing the table records
 	Place Screenshot for Step 4(d)
 
 
-# Step 5
-	
-### Step number	d
+# Step 5 - Querying the CSV file using Athena
+
+### Step number a										
+Step name	Querying the CSV file using Athena																								
+Instructions	
+1) Navigate to AWS Athena in the AWS Console
+2) Use the following command in the query editor to create a database
+create database proj2db;
+
+3) Run the following query to create the table based on the generated CSV file
+```
+CREATE EXTERNAL TABLE IF NOT EXISTS proj2db.invoice (
+'customer-id' string,
+'inv-id' string,
+'date' string,
+'from' string,
+'to' string,
+'amount' float,
+'sgst' float,
+'total' float,
+'inwords' string 
+)
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe'
+WITH SERDEPROPERTIES (
+'serialization.format' = ',',
+'field.delim' = ','
+) LOCATION 's3://<target S3 bucket>/'
+TBLPROPERTIES ('has_encrypted_data'='false');
+
+```
+
+Remember to replace the name of the target S3 bucket in the above query
+
+4) Run the following query to show aggregated expenses by date
+
+```
+SELECT sum('amount'), 'date' FROM 'proj2db'.'invoice' GROUP BY 'date';
+```
+
+**Expected screenshots**
+
+1) Creation of database	
+Place Screenshot 1 for Step 5(a)
+2) Creation of Table	
+Place Screenshot 2 for Step 5(a)
+3) Query to show aggregated expenses																						
+Place Screenshot 3 for Step 5(a)
