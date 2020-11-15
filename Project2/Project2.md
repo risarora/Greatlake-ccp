@@ -50,7 +50,8 @@ Q6	As a product manager, how would you describe the benefits of this architectur
 3) Click on 'Create Bucket'
 4) Repeat the above steps to create a target bucket
 
-Expected screenshots	1) Screen showing created S3 source and target buckets
+**Expected screenshots**
+1) Screen showing created S3 source and target buckets
 
 
 	Place Screenshot for Step 2(a)
@@ -68,7 +69,8 @@ Expected screenshots	1) Screen showing created S3 source and target buckets
     The other options can b ignored for now
 4) Click on Create Topic
 
-Expected screenshots	1) Creation of SNS topic
+**Expected screenshots**
+1) Creation of SNS topic
 
 
 	Place Screenshot for Step 2(b)
@@ -114,7 +116,8 @@ Expected screenshots	1) Creation of SNS topic
 1) Replace the bold text with the SNS topic ARN, source bucket name and your AWS account ID respectively.      
 2) Click on Save Changes
 
-Expected screenshots	1) JSON Editor screen
+**Expected screenshots**
+1) JSON Editor screen
 
 ![](./images/2020-11-14-14-58-31.png)
 	Place Screenshot for Step 2(c)
@@ -131,7 +134,8 @@ Expected screenshots	1) JSON Editor screen
      VPC : Default
      Security group : Ports 22and 8080 should be opened
 
-Expected screenshots	1) List of instances after creation of EC2 instance
+**Expected screenshots**
+1) List of instances after creation of EC2 instance
 
 
 	Place Screenshot for Step 3(a)
@@ -153,7 +157,8 @@ Expected screenshots	1) List of instances after creation of EC2 instance
 6) Select the EC2 instance created in the previous step and select Actions-> Security -> Modify IAM role
 7) Select the role ec2-s3-access from the dropdown and click on Save
 
-Expected screenshots	1) Modify IAM role screen
+**Expected screenshots**
+1) Modify IAM role screen
 ![](./images/2020-11-14-16-24-46.png)
 ![](./images/2020-11-14-16-25-15.png)
 
@@ -173,7 +178,7 @@ chmod 400 glccp.pem
 scp -i glccp.pem -r ./docproc-new ubuntu@54.146.93.185:/home/ubuntu
 ```
 
-Expected screenshots	
+**Expected screenshots**
 1) Modifying of the views.py file to point to the target bucket
 ![](./images/2020-11-14-16-47-59.png)
 2) Copying the folder to the EC2 instance	
@@ -208,7 +213,7 @@ bash-3.2$ ssh -i "glccp.pem" ubuntu@ec2-54-146-93-185.compute-1.amazonaws.com
 ```
 Keep this terminal window open throughout the rest of the exercise
 
-Expected screenshots	
+**Expected screenshots**
 1) Server in waiting state
 Place Screenshot for Step 4(a)
 ![](./images/2020-11-14-16-54-47.png)
@@ -227,7 +232,7 @@ Place Screenshot for Step 4(a)
 Note: If a message is seen 'ValueError: No JSON object could be decoded', it can be safely ignored
 5) Paste that link into a browser window to verify the SNS subscription (Ignore any messages received in the web browser)
 
-Expected screenshots	
+**Expected screenshots**
 1) Subscription URL in EC2 terminal Window
 
 ![](./images/2020-11-14-16-58-44.png)
@@ -242,7 +247,8 @@ Expected screenshots
 3) Upload the sample invoice file to the source S3 bucket using the default options
 4) Verify that a CSV file is generated in the target S3 bucket. This may take a few minutes 
 
-Expected screenshots	TBD
+**Expected screenshots**
+TBD
 1) Generated CSV file in the target S3 bucket
 
 	Place Screenshot for Step 4(c)
@@ -256,7 +262,8 @@ Expected screenshots	TBD
 3) Select the table 'invoice'
 4) Click on the 'Items' tab and verify that a record has been created in the table with the contents of the invoice file. 
 
-Expected screenshots	1) Items tab showing the table records
+**Expected screenshots**
+1) Items tab showing the table records
 
 
 	Place Screenshot for Step 4(d)
