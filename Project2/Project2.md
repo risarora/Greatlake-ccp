@@ -16,7 +16,7 @@ Q2	Which of the following services are available when creating a new table with 
 	
 Q3	Which of the following step numbers in Step 2 allowed S3 to publish to the SNS topic created?
 - [ ] 2(a)
-- [ ] 2(c)
+- [x] 2(c)
 - [ ] 2(d)
 - [ ] 2(b)
 
@@ -24,7 +24,7 @@ Q3	Which of the following step numbers in Step 2 allowed S3 to publish to the SN
 Q4	Which port is being used by SNS to send the notification to the custom program?
 - [ ] 8081
 - [ ] 80
-- [ ] 8080
+- [x] 8080
 - [ ] 8065
 
 	
@@ -100,10 +100,7 @@ Q6	As a product manager, how would you describe the benefits of this architectur
    ],
    "Resource": "arn:aws:sns:us-east-1:916317828206:S3toEC2Topic",
    "Condition": {
-      "ArnLike": { "aws:SourceArn": "
-      
-      arn:aws:s3:::glsource
-      arn:aws:s3:*:*:glsource" },
+      "ArnLike": { "aws:SourceArn": "arn:aws:s3:*:*:glsource" },
       "StringEquals": { "aws:SourceAccount": "916317828206" }
    }
   }
@@ -159,6 +156,7 @@ Q6	As a product manager, how would you describe the benefits of this architectur
 
 **Expected screenshots**
 1) Modify IAM role screen
+![](2020-11-15-12-36-06.png)
 ![](./images/2020-11-14-16-24-46.png)
 ![](./images/2020-11-14-16-25-15.png)
 
@@ -169,10 +167,10 @@ Q6	As a product manager, how would you describe the benefits of this architectur
 #### Step name	Configuration and Uploading of custom program
 **Instructions**	
 1) Open the drive link given under Architecture implementation in Step 1 and download the file docproc-new.zip on your machine
-1) Unzip the downloaded file
-2) Enter the unzipped folder and open the file views.py in the API folder using a text editor
-3) In line number 19, modify the target bucket name to the one created in Step 2 (a) and save the file
-4) Copy the folder docproc-new to the home folder of the EC2 instance created in Step 3(a) using scp. Use the command given below
+2) Unzip the downloaded file
+3) Enter the unzipped folder and open the file views.py in the API folder using a text editor
+4) In line number 19, modify the target bucket name to the one created in Step 2 (a) and save the file
+5) Copy the folder docproc-new to the home folder of the EC2 instance created in Step 3(a) using scp. Use the command given below
 ```
 chmod 400 glccp.pem
 scp -i glccp.pem -r ./docproc-new ubuntu@54.146.93.185:/home/ubuntu
@@ -193,7 +191,7 @@ scp -i glccp.pem -r ./docproc-new ubuntu@54.146.93.185:/home/ubuntu
 **Instructions**	
 1) Log into the EC2 instance using SSH
 ```
-bash-3.2$ ssh -i "glccp.pem" ubuntu@ec2-54-146-93-185.compute-1.amazonaws.com
+bash-3.2$ ssh -i "$HOME/Desktop/glccp.pem" ubuntu@ec2-54-146-93-185.compute-1.amazonaws.com
 ```
 2) Run the followng commands after successful SSH to start the server
 
