@@ -72,7 +72,7 @@ Expected screenshots	1) Creation of SNS topic
 
 
 	Place Screenshot for Step 2(b)
-	![](./images/2020-11-14-14-26-01.png)
+![](./images/2020-11-14-14-26-01.png)
 
 ### Step number	c
 
