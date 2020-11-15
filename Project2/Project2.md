@@ -9,15 +9,15 @@ Q1	Which of the following properties of an AWS resource is sufficient and necess
 	
 Q2	Which of the following services are available when creating a new table with Athena
 - [ ] RDS and S3
-- [ ] S3 and AW Glue
+- [x] S3 and AW Glue
 - [ ] RDS and EBS
 - [ ] S3 and EBS
 
 	
 Q3	Which of the following step numbers in Step 2 allowed S3 to publish to the SNS topic created?
 - [ ] 2(a)
-- [x] 2(c)
-- [ ] 2(d)
+- [ ] 2(c)
+- [x] 2(d)
 - [ ] 2(b)
 
 	
@@ -119,6 +119,21 @@ Q6	As a product manager, how would you describe the benefits of this architectur
 ![](./images/2020-11-14-14-58-31.png)
 	Place Screenshot for Step 2(c)
 
+### Step number	d
+#### Step name	Configuring SNS notifications for S3
+Instructions	"1) Navigate to S3 and select the source bucket created in Step 1 (a)
+2) Select Properties and scroll down to Event Notifications and select it
+3) Select ""Create Event Notification""
+4) Fillup the details as follows 
+     Name : S3PutEvent
+     Select PUT from the list of radio buttons
+     Destination : Select SNS Topic
+     SNS : Select S3ToEC2Topic
+     
+5) Save Changes"
+Expected screenshots	1) Event Configuration Screen
+![](./images/2020-11-15-13-41-47.png)
+
 # Step 3 - Run the custom program on the EC2 instance
 	
 ### Step number	a
@@ -156,7 +171,7 @@ Q6	As a product manager, how would you describe the benefits of this architectur
 
 **Expected screenshots**
 1) Modify IAM role screen
-![](2020-11-15-12-36-06.png)
+![](./images/2020-11-15-12-36-06.png)
 ![](./images/2020-11-14-16-24-46.png)
 ![](./images/2020-11-14-16-25-15.png)
 
@@ -246,10 +261,9 @@ Note: If a message is seen 'ValueError: No JSON object could be decoded', it can
 4) Verify that a CSV file is generated in the target S3 bucket. This may take a few minutes 
 
 **Expected screenshots**
-TBD
 1) Generated CSV file in the target S3 bucket
-
-	Place Screenshot for Step 4(c)
+![](./images/2020-11-15-13-45-46.png)
+Place Screenshot for Step 4(c)
 	
 ### Step number	d
 
@@ -262,9 +276,8 @@ TBD
 
 **Expected screenshots**
 1) Items tab showing the table records
-
-
-	Place Screenshot for Step 4(d)
+![](./images/2020-11-15-13-47-11.png)
+Place Screenshot for Step 4(d)
 
 
 # Step 5 - Querying the CSV file using Athena
@@ -274,26 +287,27 @@ Step name	Querying the CSV file using Athena
 Instructions	
 1) Navigate to AWS Athena in the AWS Console
 2) Use the following command in the query editor to create a database
+```
 create database proj2db;
-
+```
 3) Run the following query to create the table based on the generated CSV file
 ```
 CREATE EXTERNAL TABLE IF NOT EXISTS proj2db.invoice (
-'customer-id' string,
-'inv-id' string,
-'date' string,
-'from' string,
-'to' string,
-'amount' float,
-'sgst' float,
-'total' float,
-'inwords' string 
+  `customer_id` string,
+  `inv_id` string,
+  `date` string,
+  `from` string,
+  `to` string,
+  `amount` float,
+  `sgst` float,
+  `total` float,
+  `inwords` string 
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe'
 WITH SERDEPROPERTIES (
-'serialization.format' = ',',
-'field.delim' = ','
-) LOCATION 's3://<target S3 bucket>/'
+  'serialization.format' = ',',
+  'field.delim' = ','
+) LOCATION 's3://gltarget/'
 TBLPROPERTIES ('has_encrypted_data'='false');
 
 ```
@@ -310,7 +324,10 @@ SELECT sum('amount'), 'date' FROM 'proj2db'.'invoice' GROUP BY 'date';
 
 1) Creation of database	
 Place Screenshot 1 for Step 5(a)
+![](./images/2020-11-15-14-59-44.png)
 2) Creation of Table	
 Place Screenshot 2 for Step 5(a)
-3) Query to show aggregated expenses																						
+![](./images/2020-11-15-14-49-39.png)
+1) Query to show aggregated expenses																
 Place Screenshot 3 for Step 5(a)
+![](./images/2020-11-15-14-51-42.png)
