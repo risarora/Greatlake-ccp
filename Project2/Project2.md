@@ -260,6 +260,8 @@ Note: If a message is seen 'ValueError: No JSON object could be decoded', it can
 3) Upload the sample invoice file to the source S3 bucket using the default options
 4) Verify that a CSV file is generated in the target S3 bucket. This may take a few minutes 
 
+* [File Processed logs](./snsfileprocessing.md)
+
 **Expected screenshots**
 1) Generated CSV file in the target S3 bucket
 ![](./images/2020-11-15-13-45-46.png)
