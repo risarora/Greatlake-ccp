@@ -121,7 +121,8 @@ Q6	As a product manager, how would you describe the benefits of this architectur
 
 ### Step number	d
 #### Step name	Configuring SNS notifications for S3
-Instructions	"1) Navigate to S3 and select the source bucket created in Step 1 (a)
+Instructions	
+1) Navigate to S3 and select the source bucket created in Step 1 (a)
 2) Select Properties and scroll down to Event Notifications and select it
 3) Select ""Create Event Notification""
 4) Fillup the details as follows 
@@ -129,9 +130,10 @@ Instructions	"1) Navigate to S3 and select the source bucket created in Step 1 (
      Select PUT from the list of radio buttons
      Destination : Select SNS Topic
      SNS : Select S3ToEC2Topic
-     
-5) Save Changes"
-Expected screenshots	1) Event Configuration Screen
+5) Save Changes
+   
+Expected screenshots	
+1) Event Configuration Screen
 ![](./images/2020-11-15-13-41-47.png)
 
 # Step 3 - Run the custom program on the EC2 instance
