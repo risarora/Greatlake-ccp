@@ -1,5 +1,7 @@
 # Connect to AWS via CLI 
 
+https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
+
 ## Install Docker 
 ## create docker alias
 ```
