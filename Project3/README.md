@@ -21,7 +21,7 @@
     **b)** Port 8080 on the web app maps to port 80 on the host  
     **c)** All ports from 80 to 8080 are set to listen mode  
     **d)** Port 80 on the web app maps to port 8080 on the host  
-    Enter your answer here a or c
+    Enter your answer here **b**
 
 * Q2 Which of the following permissions was not used by ECS during the cluster creation process in Step 4(a) of the exercise1  
 
@@ -29,7 +29,7 @@
     **b)** Create Log Group  
     **c)** Create VPC  
     **d)** Create NAT Gateway  
-    Enter your answer here
+    Enter your answer here **d**
                                                                                                         
 * Q3 Which protocol is used by the load balancer to listen on port 8080?1
 
@@ -37,7 +37,7 @@
     **b)** HTTPS  
     **c)** Telnet  
     **d)** SSH  
-    Enter your answer here
+    Enter your answer here **b**
                                                                                                         
 * Q4 Which of the following will happen in the same Docker image is pushed to Dockerhub multiple times with different tags1
 
@@ -45,7 +45,7 @@
     **b)** The layers in the first image (if unchanged) will be reused in subsequent pushes  
     **c)** Dockerhub will merge the images  
     **d)** The same image cannot have multple tags  
-    Enter your answer here
+    Enter your answer here **a**
                                                                                                         
 * Q5 Which of the following will run a Docker container in interactive mode?1
 
@@ -53,11 +53,23 @@
     **b)** -i  
     **c)** -it  
     **d)** -u  
-    Enter your answer here
+    Enter your answer here **c**
                                                                                                         
                                                                                                         
 * Q6 How would data persistance be handled in a container environment set up for autoscaling?
-     
+     There are different methords for persisting storage for based on launch type of ECS
+For Fargate tasks, the following data volume formats are supported:
+
+* Amazon EFS volumes for persistent storage.
+* Ephemeral storage for nonpersistent storage.
+
+For Windows tasks, the following data volume format is supported:
+* Amazon FSx for Windows File Server volumes for persistent storage.
+
+For EC2 tasks, use data volumes in the following common examples:
+* Data Volume mounted on containers for persistent storage 
+
+
                                                                                                         
                                                                                                         
 * Q8 Debate for or against the following statement - "Docker is the most popular choice for microservices deployment"
