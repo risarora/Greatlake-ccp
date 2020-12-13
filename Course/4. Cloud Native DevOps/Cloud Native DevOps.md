@@ -44,14 +44,21 @@ Create an automated pipeline to deploy code once commit is done.
 * cd /opt
 * sudo chown ubuntu ubuntu -R /opt/
 
-
-
 ### Module 6 - CodeCommit Repo, Opsroot User (~10mins)-3   
 * Open Code Commit Service 
 * Create Repository
-* 
+* Create New User
+  *  Goto IAM
+  *  Create user 'ops' give 'cli access'
+  *  Give CodeCommit Access
+  *  Console Sign into the User
+*  Login from user created above and Open EC2
 
 ### Module 7 - Setup SSH, GitClone (~15mins)-3   
+*  Login from user created above and Open EC2
+*  
+
+
 ### Module 8 - Code Setup, GitPush (~10mins)-3   
 
 CodeCommit commands-3
