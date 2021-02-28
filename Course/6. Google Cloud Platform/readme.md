@@ -42,4 +42,4 @@
 
 ## Practice
 ### Google Compute Engine 
-Google Compute Engine
+[Google Compute Engine](GCP-ComputeEngineLab1.md)
