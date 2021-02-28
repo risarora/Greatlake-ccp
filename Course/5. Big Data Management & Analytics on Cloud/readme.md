@@ -17,8 +17,8 @@
   <summary>Click to expand!</summary>
 
 ### Module 5 - Tables, Indexes, Keys, AutoScaling(~40mins)
-### Module 6 - Streams, Global Tables, ### QDD, Best Practices(~25mins)
-Module 7 - DynamoDB Hands-on(~1hr)DIY - DynamoDB using Java SDK
+### Module 6 - Streams, Global Tables, QDD, Best Practices(~25mins)
+### Module 7 - DynamoDB Hands-on(~1hr)DIY - DynamoDB using Java SDK
 Dynamo.java
 ### Module 8 - DynamoDB Accelerator or DAX(~15mins)
 </details>
