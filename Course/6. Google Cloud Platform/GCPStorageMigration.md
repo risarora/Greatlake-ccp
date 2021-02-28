@@ -32,7 +32,24 @@ e)  Snapshots deleted after 48 hours of creation
 
 
 ## Command Reference
-1)  Mount the drive /dev/sda to /examplemount /dev/sdb ./example
-2)  Format the drive /dev/sdb to Ext4mkfs -t ext4 /dev/sda
-3)  Check the list of attached diskslsblk
-4)  Unmount the drive /dev/sdaumount /dev/sda
+1)  Mount the drive /dev/sda to /example
+
+```
+mount /dev/sdb ./example
+```
+3)  Format the drive /dev/sdb to Ext4
+
+```
+mkfs -t ext4 /dev/sda
+```
+5)  Check the list of attached disks
+
+```
+lsblk
+```
+7)  Unmount the drive /dev/sdau
+
+```
+mount /dev/sda
+```
+
