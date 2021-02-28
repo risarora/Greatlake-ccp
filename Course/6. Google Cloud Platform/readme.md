@@ -41,5 +41,11 @@
 
 
 ## Practice
-### Google Compute Engine 
-[Google Compute Engine](GCP-ComputeEngineLab1.md)
+<details>
+  <summary>Click to expand!</summary>
+
+* [Google Compute Engine](GCP-ComputeEngineLab1.md)
+* [Google Storage Migtration](GCPStorageMigration.md)
+
+</details>
+
