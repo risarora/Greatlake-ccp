@@ -38,3 +38,8 @@
 ### Module 18 - GKE Deploying the application (~25mins)
 ### Module 19 - GKE Build trigger (~15mins)
 </details>
+
+
+## Practice
+### Google Compute Engine 
+Google Compute Engine
