@@ -382,3 +382,15 @@
 
 
 </details>
+
+## Data sets which can be used in Azure ML
+<details>
+  <summary>Click to expand!</summary>
+ 
+* CardioGoodFitness.csv
+* car_sales.csv
+* wine.csv
+* wisc_bc_data.csv
+* House_Price_Prediction - New.csv
+
+</details>
