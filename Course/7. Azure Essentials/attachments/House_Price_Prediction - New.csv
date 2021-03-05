@@ -1,0 +1,300 @@
+Suburb,Address,Rooms,Type,Method,SellerG,Date,Distance,Postcode,Regionname,Propertycount,ParkingArea,Price
+Abbotsford,68 Studley St,2,h,SS,Jellis,03-09-2016,2.5,3067,Northern Metropolitan,4019,Carport,
+Airport West,154 Halsey Rd,3,t,PI,Nelson,03-09-2016,13.5,3042,Western Metropolitan,3464,Detached Garage,840000
+Albert Park,105 Kerferd Rd,2,h,S,hockingstuart,03-09-2016,3.3,3206,Southern Metropolitan,3280,Attached Garage,1275000
+Albert Park,85 Richardson St,2,h,S,Thomson,03-09-2016,3.3,3206,Southern Metropolitan,3280,Indoor,1455000
+Alphington,30 Austin St,3,h,SN,McGrath,03-09-2016,6.4,3078,Northern Metropolitan,2211,Parkade,
+Alphington,6 Smith St,4,h,S,Brace,03-09-2016,6.4,3078,Northern Metropolitan,2211,Underground,2000000
+Alphington,5/6 Yarralea St,3,h,S,Jellis,03-09-2016,6.4,3078,Northern Metropolitan,2211,Outdoor Stall,1110000
+Altona,158 Queen St,3,h,VB,Greg,03-09-2016,13.8,3018,Western Metropolitan,5301,Parking Pad,520000
+Altona North,1 Beuron Rd,3,h,SP,Williams,03-09-2016,11.1,3025,Western Metropolitan,5132,Carport,
+Altona North,45 Hearn St,5,h,S,FN,03-09-2016,11.1,3025,Western Metropolitan,5132,Detached Garage,1085000
+Altona North,4 Knapp St,3,h,S,Jas,03-09-2016,11.1,3025,Western Metropolitan,5132,Attached Garage,781000
+Altona North,103 Sixth Av,4,h,S,hockingstuart,03-09-2016,11.1,3025,Western Metropolitan,5132,Indoor,857500
+Armadale,24 Hume St,3,h,S,RT,03-09-2016,6.3,3143,Southern Metropolitan,4836,Parkade,
+Armadale,8/19 Mercer Rd,2,u,S,Jellis,03-09-2016,6.3,3143,Southern Metropolitan,4836,Underground,599000
+Ascot Vale,24 Ayr St,3,h,S,Jellis,03-09-2016,5.9,3032,Western Metropolitan,6567,Carport,
+Ascot Vale,2/43 Roxburgh St,2,u,S,Nelson,03-09-2016,5.9,3032,Western Metropolitan,6567,Detached Garage,455000
+Ashburton,61 Dent St,4,h,S,Marshall,03-09-2016,11,3147,Southern Metropolitan,3052,Attached Garage,2650000
+Ashburton,1 Wilgra Av,2,h,S,Marshall,03-09-2016,11,3147,Southern Metropolitan,3052,Indoor,1820000
+Ashwood,1/14 Eildon Rd,3,h,SP,Jellis,03-09-2016,12.2,3147,Southern Metropolitan,2894,Parkade,
+Ashwood,18 Teck St,2,h,S,Tim,03-09-2016,12.2,3147,Southern Metropolitan,2894,Carport,995000
+Avondale Heights,13 MacEy Av,4,h,S,Jellis,03-09-2016,10.5,3034,Western Metropolitan,4502,Detached Garage,1310000
+Avondale Heights,8 Norma Ct,3,h,S,Moonee,03-09-2016,10.5,3034,Western Metropolitan,4502,Attached Garage,850000
+Avondale Heights,9 Rogerson St,3,h,SP,Moonee,03-09-2016,10.5,3034,Western Metropolitan,4502,Indoor,750000
+Balaclava,18 Linton St,4,h,S,Gary,03-09-2016,6.6,3183,Southern Metropolitan,2952,Parkade,1819000
+Balwyn,1/4 Glenluss St,3,t,S,Jellis,03-09-2016,9.7,3103,Southern Metropolitan,5682,Underground,
+Balwyn,166 Gordon St,2,h,S,Marshall,03-09-2016,9.7,3103,Southern Metropolitan,5682,Outdoor Stall,2100000
+Balwyn,36 Narrak Rd,4,h,VB,Marshall,03-09-2016,9.7,3103,Southern Metropolitan,5682,Carport,1800000
+Balwyn,2/16 Westminster St,2,t,S,Noel,03-09-2016,9.7,3103,Southern Metropolitan,5682,Detached Garage,1255000
+Balwyn North,3/41 Clifton St,3,t,S,hockingstuart,03-09-2016,9.2,3104,Southern Metropolitan,7809,Attached Garage,1315000
+Balwyn North,153 Doncaster Rd,3,h,PI,Jellis,03-09-2016,9.2,3104,Southern Metropolitan,7809,Indoor,1500000
+Balwyn North,19 Jacka St,4,h,S,Jellis,03-09-2016,9.2,3104,Southern Metropolitan,7809,Parkade,3230000
+Balwyn North,32 Jaserfold St,2,h,S,Jellis,03-09-2016,9.2,3104,Southern Metropolitan,7809,Carport,1080000
+Balwyn North,2/5 Marwal Av,4,u,S,hockingstuart,03-09-2016,9.2,3104,Southern Metropolitan,7809,Detached Garage,1450000
+Balwyn North,32 Maylands Av,2,h,S,Fletchers,03-09-2016,9.2,3104,Southern Metropolitan,7809,Attached Garage,1305000
+Bentleigh,5/205 Centre Rd,2,u,S,hockingstuart,03-09-2016,13,3204,Southern Metropolitan,6795,Indoor,636000
+Bentleigh,22 Hobart St,2,h,S,Woodards,03-09-2016,13,3204,Southern Metropolitan,6795,Parkade,1275000
+Bentleigh,1/236 Patterson Rd,3,u,S,hockingstuart,03-09-2016,13,3204,Southern Metropolitan,6795,Carport,875000
+Bentleigh,7a Porter Rd,4,t,S,hockingstuart,03-09-2016,13,3204,Southern Metropolitan,6795,Detached Garage,1230000
+Bentleigh,2/531 South Rd,3,t,PI,Ray,03-09-2016,13,3204,Southern Metropolitan,6795,Attached Garage,895000
+Bentleigh,1/28 Strathmore St,3,t,PI,C21,03-09-2016,13,3204,Southern Metropolitan,6795,Carport,1020000
+Bentleigh East,9 Edinburgh St,3,h,SN,hockingstuart,03-09-2016,13.9,3165,Southern Metropolitan,10969,Detached Garage,
+Bentleigh East,11a Latham St,4,t,S,hockingstuart,03-09-2016,13.9,3165,Southern Metropolitan,10969,Attached Garage,
+Bentleigh East,18 Mervin St,2,h,S,hockingstuart,03-09-2016,13.9,3165,Southern Metropolitan,10969,Indoor,1410000
+Bentleigh East,21b Northam Rd,3,t,S,Buxton,03-09-2016,13.9,3165,Southern Metropolitan,10969,Parkade,990000
+Bentleigh East,68 Pasadena Cr,3,h,S,Buxton,03-09-2016,13.9,3165,Southern Metropolitan,10969,Underground,1057000
+Bentleigh East,1/69 Purtell St,3,t,PI,hockingstuart,03-09-2016,13.9,3165,Southern Metropolitan,10969,Outdoor Stall,760000
+Bentleigh East,30 Veronica St,2,h,S,Buxton,03-09-2016,13.9,3165,Southern Metropolitan,10969,Carport,825000
+Box Hill,32 Margaret St,4,h,S,hockingstuart,03-09-2016,13.1,3128,Eastern Metropolitan,4605,Detached Garage,1620000
+Braybrook,44 Carlton St,4,h,W,Sweeney,03-09-2016,10.8,3019,Western Metropolitan,3589,Attached Garage,
+Braybrook,132 Duke St,3,h,S,Barry,03-09-2016,10.8,3019,Western Metropolitan,3589,Indoor,870000
+Braybrook,25 Lily St,2,h,S,Barry,03-09-2016,10.8,3019,Western Metropolitan,3589,Carport,645000
+Brighton,802 Hampton St,3,h,VB,Buxton,03-09-2016,11.2,3186,Southern Metropolitan,10579,Detached Garage,1550000
+Brighton,476 New St,4,h,S,Marshall,03-09-2016,11.2,3186,Southern Metropolitan,10579,Attached Garage,
+Brighton,18 Rooding St,3,h,S,Buxton,03-09-2016,11.2,3186,Southern Metropolitan,10579,Indoor,1635000
+Brighton East,38 Arnold Rd,5,h,S,Buxton,03-09-2016,10.7,3187,Southern Metropolitan,6938,Parkade,
+Brighton East,7 Balfour St,4,h,S,hockingstuart,03-09-2016,10.7,3187,Southern Metropolitan,6938,Carport,1940000
+Brighton East,40 Camperdown St,4,h,S,Buxton,03-09-2016,10.7,3187,Southern Metropolitan,6938,Detached Garage,
+Brighton East,4 Marriage Rd,4,h,S,Nick,03-09-2016,10.7,3187,Southern Metropolitan,6938,Attached Garage,1850000
+Brighton East,23 Rogers Av,2,h,S,Nick,03-09-2016,10.7,3187,Southern Metropolitan,6938,Indoor,1060000
+Brighton East,214 South Rd,4,h,S,Buxton,03-09-2016,10.7,3187,Southern Metropolitan,6938,Carport,
+Brighton East,244a South Rd,3,h,SP,Marshall,03-09-2016,10.7,3187,Southern Metropolitan,6938,Detached Garage,930000
+Brighton East,1 Sunnyside Av,5,h,S,Gary,03-09-2016,10.7,3187,Southern Metropolitan,6938,Attached Garage,1952000
+Brighton East,246a Were St,3,h,SS,Marshall,03-09-2016,10.7,3187,Southern Metropolitan,6938,Indoor,
+Brunswick,8/55 De Carle St,2,u,S,Brad,03-09-2016,5.2,3056,Northern Metropolitan,11918,Parkade,428000
+Brunswick,234 Victoria St,2,h,S,Nelson,03-09-2016,5.2,3056,Northern Metropolitan,11918,Underground,1026000
+Brunswick West,8/7 Passfield St,2,u,S,Peter,03-09-2016,5.9,3055,Northern Metropolitan,7082,Outdoor Stall,521500
+Bulleen,19a Elizabeth St,3,u,S,Jellis,03-09-2016,11.8,3105,Eastern Metropolitan,4480,Parking Pad,851000
+Bulleen,42 Robert St,4,h,S,Jellis,03-09-2016,11.8,3105,Eastern Metropolitan,4480,Carport,1300000
+Bulleen,92 Swanston St,4,h,PI,Barry,03-09-2016,11.8,3105,Eastern Metropolitan,4480,Detached Garage,1110000
+Bulleen,25 William St,4,h,S,Jellis,03-09-2016,11.8,3105,Eastern Metropolitan,4480,Attached Garage,1235000
+Burwood,15 Loudon Rd,5,h,S,Jellis,03-09-2016,11.7,3125,Southern Metropolitan,5678,Indoor,1590000
+Camberwell,28 Brinsley Rd,4,h,S,Jellis,03-09-2016,7.8,3124,Southern Metropolitan,8920,Parkade,2650000
+Camberwell,2/1 Glen Iris Rd,3,t,S,Marshall,03-09-2016,7.8,3124,Southern Metropolitan,8920,Underground,1615000
+Camberwell,6 Kalang Rd,3,h,PN,Rayner,03-09-2016,7.8,3124,Southern Metropolitan,8920,Outdoor Stall,
+Camberwell,1288 Toorak Rd,4,h,SA,RT,03-09-2016,7.8,3124,Southern Metropolitan,8920,Parking Pad,3225000
+Canterbury,18 Irilbarra Rd,4,h,S,Marshall,03-09-2016,9,3126,Southern Metropolitan,3265,Carport,2950000
+Canterbury,2a View St,3,h,SN,Kay,03-09-2016,9,3126,Southern Metropolitan,3265,Detached Garage,
+Carlton North,527 Nicholson St,3,h,VB,Nelson,03-09-2016,3.2,3054,Northern Metropolitan,3106,Attached Garage,1330000
+Carnegie,1/60 Moonya Rd,3,u,S,Ray,03-09-2016,11.4,3163,Southern Metropolitan,7822,Indoor,820000
+Carnegie,1/70 Truganini Rd,2,t,S,Gary,03-09-2016,11.4,3163,Southern Metropolitan,7822,Parkade,795000
+Caulfield,6/5 Freeman St,2,u,S,Gary,03-09-2016,8.9,3162,Southern Metropolitan,2379,Underground,722500
+Caulfield North,14 Arthur St,3,h,S,McGrath,03-09-2016,8.1,3161,Southern Metropolitan,6923,Carport,1365000
+Caulfield North,452 Dandenong Rd,3,h,S,Marshall,03-09-2016,8.1,3161,Southern Metropolitan,6923,Detached Garage,1750000
+Caulfield South,336 Bambra Rd,2,h,SN,Gary,03-09-2016,9.3,3162,Southern Metropolitan,5051,Attached Garage,
+Caulfield South,26 Flowers St,3,h,S,hockingstuart,03-09-2016,9.3,3162,Southern Metropolitan,5051,Indoor,1577500
+Caulfield South,14 Latrobe St,4,h,S,Gary,03-09-2016,9.3,3162,Southern Metropolitan,5051,Parkade,1802000
+Caulfield South,2/5 Moore St,3,h,SN,Gary,03-09-2016,9.3,3162,Southern Metropolitan,5051,Carport,
+Chadstone,3/10 Euroka St,3,t,S,Buxton,03-09-2016,13.6,3148,Southern Metropolitan,3582,Detached Garage,752000
+Chadstone,2/20 Hillcrest Av,2,u,S,Buxton,03-09-2016,13.6,3148,Southern Metropolitan,3582,Attached Garage,670000
+Clifton Hill,1/262 Alexandra Pde E,1,u,PI,Nelson,03-09-2016,3.4,3068,Northern Metropolitan,2954,Indoor,
+Clifton Hill,60a Hodgkinson St,3,h,S,Nelson,03-09-2016,3.4,3068,Northern Metropolitan,2954,Parkade,1270000
+Coburg,1/13 Clarendon St,2,u,SN,Barry,03-09-2016,7.8,3058,Northern Metropolitan,11204,Underground,
+Coburg,29 Molesworth St,2,h,SP,Brad,03-09-2016,7.8,3058,Northern Metropolitan,11204,Outdoor Stall,850000
+Coburg,71 Ohea St,3,h,SN,Barry,03-09-2016,7.8,3058,Northern Metropolitan,11204,Carport,
+Coburg,39 Salisbury St,3,h,S,Raine,03-09-2016,7.8,3058,Northern Metropolitan,11204,Detached Garage,
+Coburg,10 Shackell St,3,h,S,Nelson,03-09-2016,7.8,3058,Northern Metropolitan,11204,Attached Garage,784000
+Coburg North,17 Lorensen Av,3,h,S,Nelson,03-09-2016,9.2,3058,Northern Metropolitan,3445,Indoor,845000
+Collingwood,69 Hotham St,2,t,S,Jellis,03-09-2016,1.6,3066,Northern Metropolitan,4553,Parkade,750000
+Collingwood,130 Keele St,2,h,S,LITTLE,03-09-2016,1.6,3066,Northern Metropolitan,4553,Carport,890000
+Collingwood,10/79 Oxford St,2,u,S,Jellis,03-09-2016,1.6,3066,Northern Metropolitan,4553,Detached Garage,1260000
+Collingwood,2/79 Oxford St,2,u,S,Nelson,03-09-2016,1.6,3066,Northern Metropolitan,4553,Attached Garage,855000
+Doncaster,329 George St,4,h,S,Barry,03-09-2016,13.9,3108,Eastern Metropolitan,9028,Indoor,1924500
+Doncaster,9 Lauer St,4,h,S,Barry,03-09-2016,13.9,3108,Eastern Metropolitan,9028,Parkade,1416000
+Doncaster,2/20 Wetherby Rd,2,u,S,Barry,03-09-2016,13.9,3108,Eastern Metropolitan,9028,Carport,492500
+Eaglemont,82 The Righi,3,h,SN,Miles,03-09-2016,10.3,3084,Eastern Metropolitan,1651,Detached Garage,
+Eaglemont,1 Warringal Pl,6,h,SN,Kay,03-09-2016,10.3,3084,Eastern Metropolitan,1651,Attached Garage,
+Elsternwick,30 Ross St,2,h,VB,Gary,03-09-2016,8.5,3185,Southern Metropolitan,4898,Carport,900000
+Elwood,20 Coleridge St,5,h,S,Chisholm,03-09-2016,7.7,3184,Southern Metropolitan,8989,Detached Garage,
+Elwood,8/44 Southey St,1,u,S,Chisholm,03-09-2016,7.7,3184,Southern Metropolitan,8989,Attached Garage,520000
+Elwood,1/10 Wilton Gr,3,t,S,hockingstuart,03-09-2016,7.7,3184,Southern Metropolitan,8989,Indoor,1350000
+Essendon,6 Buckley St,3,h,S,Jellis,03-09-2016,8,3040,Western Metropolitan,9264,Parkade,1425000
+Essendon,1/28 Gilbertson St,2,u,S,Barry,03-09-2016,8,3040,Western Metropolitan,9264,Underground,660000
+Essendon,3/85 Tennyson St,2,u,VB,Nelson,03-09-2016,8,3040,Western Metropolitan,9264,Outdoor Stall,550000
+Essendon North,2/17 Bulla Rd,2,u,S,Barry,03-09-2016,9.4,3041,Western Metropolitan,1308,Carport,396000
+Fairfield,150 Gillies St,3,h,VB,Jellis,03-09-2016,5.8,3078,Northern Metropolitan,2970,Detached Garage,1250000
+Fairfield,46 Perry St,3,h,S,Nelson,03-09-2016,5.8,3078,Northern Metropolitan,2970,Attached Garage,
+Fitzroy,111 Cecil St,2,h,S,Nelson,03-09-2016,1.6,3065,Northern Metropolitan,5825,Indoor,1000000
+Fitzroy,3/18 Hanover St,3,h,S,Nelson,03-09-2016,1.6,3065,Northern Metropolitan,5825,Carport,1252000
+Fitzroy North,233/4 Bik La,2,u,SP,Woodards,03-09-2016,3.5,3068,Northern Metropolitan,6244,Detached Garage,700000
+Fitzroy North,470 Brunswick St,2,h,S,Woodards,03-09-2016,3.5,3068,Northern Metropolitan,6244,Attached Garage,860000
+Fitzroy North,50 Freeman St,2,h,S,Nelson,03-09-2016,3.5,3068,Northern Metropolitan,6244,Indoor,870000
+Fitzroy North,76 Newry St,2,h,S,Nelson,03-09-2016,3.5,3068,Northern Metropolitan,6244,Parkade,1116000
+Fitzroy North,2 Pilkington St,4,h,VB,Nelson,03-09-2016,3.5,3068,Northern Metropolitan,6244,Carport,1450000
+Fitzroy North,186 Queens Pde,2,t,S,Nelson,03-09-2016,3.5,3068,Northern Metropolitan,6244,Detached Garage,930000
+Flemington,96 Bryant St,2,h,S,Nelson,03-09-2016,4.4,3031,Northern Metropolitan,3593,Attached Garage,865500
+Flemington,34 Illawarra Rd,3,h,S,Nelson,03-09-2016,4.4,3031,Northern Metropolitan,3593,Indoor,
+Footscray,4/33 Ballarat Rd,3,t,S,Nelson,03-09-2016,6.4,3011,Western Metropolitan,7570,Carport,585000
+Footscray,202/51 Gordon St,1,u,PI,Burnham,03-09-2016,6.4,3011,Western Metropolitan,7570,Detached Garage,85000
+Glen Iris,6 Beatrice St,3,h,S,hockingstuart,03-09-2016,9.2,3146,Southern Metropolitan,10412,Attached Garage,1735000
+Glen Iris,4/28 Belmont Av N,2,u,VB,Noel,03-09-2016,9.2,3146,Southern Metropolitan,10412,Indoor,490000
+Glen Iris,57 Brandon St,2,h,S,Jellis,03-09-2016,9.2,3146,Southern Metropolitan,10412,Parkade,1699000
+Glen Iris,30 Howie St,3,t,SP,Marshall,03-09-2016,9.2,3146,Southern Metropolitan,10412,Underground,
+Glen Iris,11 Vincent St,4,h,VB,Kay,03-09-2016,9.2,3146,Southern Metropolitan,10412,Outdoor Stall,3400000
+Glen Iris,2 Vincent St,5,h,PI,Abercromby's,03-09-2016,9.2,3146,Southern Metropolitan,10412,Parking Pad,3730000
+Glenroy,2/13 Becket St S,3,t,S,Stockdale,03-09-2016,13,3046,Northern Metropolitan,8870,Carport,585000
+Glenroy,89 John St,3,h,S,Ray,03-09-2016,13,3046,Northern Metropolitan,8870,Detached Garage,610000
+Glenroy,1/83 Maude Av,3,t,VB,Brad,03-09-2016,13,3046,Northern Metropolitan,8870,Attached Garage,480000
+Glenroy,18 Pengana Av,3,h,S,Barry,03-09-2016,13,3046,Northern Metropolitan,8870,Indoor,681500
+Glenroy,52 Tarana Av,3,h,S,Nelson,03-09-2016,13,3046,Northern Metropolitan,8870,Parkade,640000
+Glenroy,11 Valley Cr,3,h,S,Eview,03-09-2016,13,3046,Northern Metropolitan,8870,Underground,712000
+Gowanbrae,1 Gowanbrae Dr,3,h,S,Nelson,03-09-2016,13.6,3043,Western Metropolitan,1071,Outdoor Stall,631000
+Gowanbrae,31 Seggan Cir,3,t,S,Nelson,03-09-2016,13.6,3043,Western Metropolitan,1071,Parking Pad,532000
+Hadfield,20 Bedford St,3,h,PI,hockingstuart,03-09-2016,12.1,3046,Northern Metropolitan,2606,Carport,605000
+Hadfield,1/1 Lockley St,3,h,S,Stockdale,03-09-2016,12.1,3046,Northern Metropolitan,2606,Detached Garage,570000
+Hadfield,29 Sutherland St,3,h,SP,Brad,03-09-2016,12.1,3046,Northern Metropolitan,2606,Attached Garage,685500
+Hampton,1/30 Grenville St,2,u,S,hockingstuart,03-09-2016,13.7,3188,Southern Metropolitan,5454,Indoor,895000
+Hampton,6/334 Hampton St,2,u,S,Ray,03-09-2016,13.7,3188,Southern Metropolitan,5454,Parkade,587000
+Hampton,38 Myrtle Rd,4,h,S,Nick,03-09-2016,13.7,3188,Southern Metropolitan,5454,Underground,2800000
+Hampton,3/31 Thomas St,2,u,S,Buxton,03-09-2016,13.7,3188,Southern Metropolitan,5454,Carport,720000
+Hampton,36 Thomas St,4,h,S,hockingstuart,03-09-2016,13.7,3188,Southern Metropolitan,5454,Detached Garage,3250000
+Hampton East,20 Highbury Av,4,h,S,Marshall,03-09-2016,14.5,3188,Southern Metropolitan,2356,Attached Garage,1525000
+Hampton East,2/113 Spring Rd,3,t,PI,Buxton,03-09-2016,14.5,3188,Southern Metropolitan,2356,Indoor,
+Hawthorn,22/9 Lisson Gr,1,u,PI,Biggin,03-09-2016,4.6,3122,Southern Metropolitan,11308,Parkade,
+Hawthorn,6a Scott St,4,h,PI,Jellis,03-09-2016,4.6,3122,Southern Metropolitan,11308,Carport,1650000
+Heidelberg Heights,97 Edwin St,2,h,SP,Fletchers,03-09-2016,10.5,3081,Eastern Metropolitan,2947,Detached Garage,815000
+Heidelberg West,3 Ebony Pde,2,h,SP,Nelson,03-09-2016,9.4,3081,Eastern Metropolitan,2674,Attached Garage,
+Heidelberg West,3a Katoomba Ct,5,h,S,Nelson,03-09-2016,9.4,3081,Eastern Metropolitan,2674,Indoor,765000
+Heidelberg West,23 Redwood St,3,h,S,Haughton,03-09-2016,9.4,3081,Eastern Metropolitan,2674,Parkade,691000
+Hughesdale,57 Euston Rd,3,h,SN,Ray,03-09-2016,13,3166,Southern Metropolitan,3145,Underground,
+Hughesdale,18 Paget St,2,h,S,Woodards,03-09-2016,13,3166,Southern Metropolitan,3145,Outdoor Stall,1550000
+Hughesdale,1/13 Swindon Rd,2,u,S,Ray,03-09-2016,13,3166,Southern Metropolitan,3145,Carport,516000
+Ivanhoe,9/88 Marshall St,2,u,VB,Miles,03-09-2016,7.9,3079,Eastern Metropolitan,5549,Detached Garage,480000
+Kealba,28 Hedgeley Rd,5,h,PI,Barry,03-09-2016,15,3021,Western Metropolitan,1202,Attached Garage,
+Keilor East,16 Border Dr,3,h,S,Nelson,03-09-2016,12.8,3033,Western Metropolitan,5629,Indoor,703000
+Keilor East,85 David Av,3,h,VB,Nelson,03-09-2016,12.8,3033,Western Metropolitan,5629,Parkade,680000
+Keilor East,121 Sterling Dr,3,h,SP,Barry,03-09-2016,12.8,3033,Western Metropolitan,5629,Carport,650000
+Kensington,4 Coopers La,3,h,S,Nelson,03-09-2016,4.2,3031,Northern Metropolitan,5263,Detached Garage,785000
+Kensington,65 Gatehouse Dr,3,h,S,Nelson,03-09-2016,4.2,3031,Northern Metropolitan,5263,Attached Garage,852000
+Kensington,35 Henry St,3,h,S,Rendina,03-09-2016,4.2,3031,Northern Metropolitan,5263,Indoor,1037000
+Kew,13 Annadale St,3,h,S,Jellis,03-09-2016,5.6,3101,Southern Metropolitan,10331,Parkade,1635000
+Kew,6 Gordon Av,2,h,S,Jellis,03-09-2016,5.6,3101,Southern Metropolitan,10331,Carport,
+Kew,51 Rowland St,2,h,S,Jellis,03-09-2016,5.6,3101,Southern Metropolitan,10331,Detached Garage,4800000
+Kew,2/28 Wimba Av,3,u,S,Jellis,03-09-2016,5.6,3101,Southern Metropolitan,10331,Attached Garage,970000
+Kew,7 Wimba Av,5,h,S,Jellis,03-09-2016,5.6,3101,Southern Metropolitan,10331,Carport,6240000
+Kew East,34 Baker Av,4,h,PI,Marshall,03-09-2016,7.5,3102,Southern Metropolitan,2671,Detached Garage,2040000
+Kew East,1/3 Leason St,3,u,S,Marshall,03-09-2016,7.5,3102,Southern Metropolitan,2671,Attached Garage,
+Kew East,43 Oswin St,4,h,S,Marshall,03-09-2016,7.5,3102,Southern Metropolitan,2671,Indoor,2490000
+Kew East,4/34 Strathalbyn St,2,u,S,Nelson,03-09-2016,7.5,3102,Southern Metropolitan,2671,Parkade,620000
+Kooyong,30 Monaro Rd,5,h,S,Marshall,03-09-2016,6.2,3144,Southern Metropolitan,394,Underground,
+Maidstone,12 Bosquet St,3,h,S,Sweeney,03-09-2016,9.2,3012,Western Metropolitan,3873,Outdoor Stall,670000
+Maidstone,3 Crefden St,3,t,S,Jas,03-09-2016,9.2,3012,Western Metropolitan,3873,Carport,615000
+Maidstone,27 Dunedin St,3,h,S,Burnham,03-09-2016,9.2,3012,Western Metropolitan,3873,Detached Garage,715000
+Maidstone,2/22 Jackson St,3,h,SN,Barry,03-09-2016,9.2,3012,Western Metropolitan,3873,Attached Garage,
+Maidstone,32 Ringtail Cct,4,h,S,Rendina,03-09-2016,9.2,3012,Western Metropolitan,3873,Indoor,826000
+Malvern,17 Horace St,3,h,S,Marshall,03-09-2016,7.4,3144,Southern Metropolitan,4675,Carport,
+Malvern,39 McKinley Av,3,h,S,Jellis,03-09-2016,7.4,3144,Southern Metropolitan,4675,Detached Garage,2500000
+Malvern,17 Shaftesbury Av,4,h,PI,Jellis,03-09-2016,7.4,3144,Southern Metropolitan,4675,Attached Garage,3850000
+Malvern,2/240 Wattletree Rd,2,u,SP,hockingstuart,03-09-2016,7.4,3144,Southern Metropolitan,4675,Indoor,
+Malvern East,9 Chanak St,3,h,S,Marshall,03-09-2016,11.2,3145,Southern Metropolitan,8801,Parkade,1490000
+Malvern East,1/13 Goode St,3,h,S,Marshall,03-09-2016,11.2,3145,Southern Metropolitan,8801,Carport,1210000
+Malvern East,44 Thurso St,4,h,S,J,03-09-2016,11.2,3145,Southern Metropolitan,8801,Detached Garage,1300000
+Malvern East,375 Waverley Rd,4,h,PI,Thomson,03-09-2016,11.2,3145,Southern Metropolitan,8801,Attached Garage,1675000
+Maribyrnong,1/127 Raleigh Rd,3,t,PI,Biggin,03-09-2016,8.7,3032,Western Metropolitan,4918,Indoor,
+Melbourne,19/562 Little Bourke St,1,u,PI,Harcourts,03-09-2016,2.8,3000,Northern Metropolitan,17496,Carport,
+Melbourne,605/55 Queens Rd,1,u,PI,RT,03-09-2016,2.8,3000,Northern Metropolitan,17496,Detached Garage,400000
+Middle Park,277 Danks St,3,h,VB,Cayzer,03-09-2016,4.1,3206,Southern Metropolitan,2019,Attached Garage,2600000
+Middle Park,31/75 Park Rd,1,u,SP,Marshall,03-09-2016,4.1,3206,Southern Metropolitan,2019,Indoor,
+Mont Albert,371 Elgar Rd,2,h,SP,Lindellas,03-09-2016,11.8,3127,Eastern Metropolitan,2079,Parkade,1320000
+Mont Albert,17 Rowland St,4,h,S,Jellis,03-09-2016,11.8,3127,Eastern Metropolitan,2079,Underground,2850000
+Moonee Ponds,504/26 Shuter St,3,u,S,Nelson,03-09-2016,6.9,3039,Western Metropolitan,6232,Outdoor Stall,670000
+Moorabbin,21 Fiddes St,3,h,S,Buxton,03-09-2016,14.6,3189,Southern Metropolitan,2555,Parking Pad,1224000
+Moorabbin,23 Fiddes St,3,h,S,Buxton,03-09-2016,14.6,3189,Southern Metropolitan,2555,Carport,1020000
+Moorabbin,19 Hamer St,3,h,S,O'Brien,03-09-2016,14.6,3189,Southern Metropolitan,2555,Detached Garage,1000000
+Moorabbin,6/1015 Nepean Hwy,1,u,S,Ray,03-09-2016,14.6,3189,Southern Metropolitan,2555,Attached Garage,380500
+Newport,23a Farm St,3,h,SP,Sweeney,03-09-2016,8.4,3015,Western Metropolitan,5498,Indoor,1025000
+Newport,1/26 Thorpe St,3,h,S,Village,03-09-2016,8.4,3015,Western Metropolitan,5498,Parkade,826000
+Niddrie,28 Coghlan St,3,t,S,Barry,03-09-2016,11.2,3042,Western Metropolitan,2291,Underground,830000
+Niddrie,57a Hamilton St,4,t,S,Barry,03-09-2016,11.2,3042,Western Metropolitan,2291,Outdoor Stall,1065000
+Niddrie,3a Irving St,3,h,PI,McDonald,03-09-2016,11.2,3042,Western Metropolitan,2291,Parking Pad,780000
+Niddrie,9 Willow Cr,3,h,SP,Brad,03-09-2016,11.2,3042,Western Metropolitan,2291,Carport,950000
+Niddrie,9 Willowtree Cr,3,h,SP,Brad,03-09-2016,11.2,3042,Western Metropolitan,2291,Detached Garage,950000
+North Melbourne,10 Canning St,4,h,S,Nelson,03-09-2016,2.3,3051,Northern Metropolitan,6821,Attached Garage,2920000
+North Melbourne,90 Molesworth St,3,h,S,Nelson,03-09-2016,2.3,3051,Northern Metropolitan,6821,Indoor,1635000
+North Melbourne,208/150 Peel St,1,u,SP,Nelson,03-09-2016,2.3,3051,Northern Metropolitan,6821,Parkade,491000
+Northcote,43 Christmas St,2,h,S,McGrath,03-09-2016,5.5,3070,Northern Metropolitan,11364,Underground,1286000
+Northcote,30 Clarke St,3,h,S,Nelson,03-09-2016,5.5,3070,Northern Metropolitan,11364,Carport,1200000
+Northcote,57A Derby St,3,h,SA,Nelson,03-09-2016,5.5,3070,Northern Metropolitan,11364,Detached Garage,1382500
+Northcote,3/412 High St,2,u,S,McGrath,03-09-2016,5.5,3070,Northern Metropolitan,11364,Attached Garage,630000
+Northcote,24 Jessie St,4,h,VB,Jellis,03-09-2016,5.5,3070,Northern Metropolitan,11364,Indoor,1600000
+Oak Park,2/13 Cartwright St,4,t,SP,Brad,03-09-2016,11.5,3046,Northern Metropolitan,2651,Parkade,670000
+Oak Park,14 Marie St,3,h,S,Nelson,03-09-2016,11.5,3046,Northern Metropolitan,2651,Carport,892000
+Oak Park,1 Victoria St,2,h,S,Barry,03-09-2016,11.5,3046,Northern Metropolitan,2651,Detached Garage,592000
+Oakleigh South,27 Beryl Av,4,h,S,Woodards,03-09-2016,14.7,3167,South-Eastern Metropolitan,3692,Attached Garage,991000
+Oakleigh South,41 Cleek Av,2,h,S,Buxton,03-09-2016,14.7,3167,South-Eastern Metropolitan,3692,Indoor,1242000
+Oakleigh South,21a Tular Av,2,t,SP,Buxton,03-09-2016,14.7,3167,South-Eastern Metropolitan,3692,Parkade,665000
+Oakleigh South,2/232 Warrigal Rd,3,t,S,Fletchers,03-09-2016,14.7,3167,South-Eastern Metropolitan,3692,Underground,680000
+Parkville,50 Strickland Rd,4,h,S,Nelson,03-09-2016,2.6,3052,Northern Metropolitan,2309,Outdoor Stall,1230000
+Pascoe Vale,9 Irvine St,3,h,S,Brad,03-09-2016,9.9,3044,Northern Metropolitan,7485,Carport,1120000
+Pascoe Vale,7 Virginia St,3,h,S,Nelson,03-09-2016,9.9,3044,Northern Metropolitan,7485,Detached Garage,770000
+Port Melbourne,205/101 Bay St,2,u,PI,RT,03-09-2016,3.8,3207,Southern Metropolitan,8648,Attached Garage,
+Port Melbourne,903/107 Beach St,2,u,S,Biggin,03-09-2016,3.8,3207,Southern Metropolitan,8648,Indoor,1100000
+Port Melbourne,307/1 Danks St,2,u,S,Greg,03-09-2016,3.8,3207,Southern Metropolitan,8648,Parkade,650000
+Port Melbourne,287 Esplanade Pl,3,h,S,Marshall,03-09-2016,3.8,3207,Southern Metropolitan,8648,Carport,1681000
+Port Melbourne,5 Pier St,4,h,S,Marshall,03-09-2016,3.8,3207,Southern Metropolitan,8648,Detached Garage,
+Port Melbourne,241 The Boulevard,4,h,S,Greg,03-09-2016,3.8,3207,Southern Metropolitan,8648,Attached Garage,
+Prahran,404/12 Anchor Pl,2,u,PI,hockingstuart,03-09-2016,4.5,3181,Southern Metropolitan,7717,Indoor,
+Prahran,6/27 Grandview Gr,2,t,S,Jellis,03-09-2016,4.5,3181,Southern Metropolitan,7717,Parkade,
+Prahran,7/36 Grandview Gr,2,u,VB,Hodges,03-09-2016,4.5,3181,Southern Metropolitan,7717,Carport,650000
+Prahran,13/37 Greville St,1,u,S,hockingstuart,03-09-2016,4.5,3181,Southern Metropolitan,7717,Detached Garage,342000
+Prahran,13 Mary St,4,h,S,Marshall,03-09-2016,4.5,3181,Southern Metropolitan,7717,Attached Garage,2680000
+Prahran,20a Percy St,2,h,PI,hockingstuart,03-09-2016,4.5,3181,Southern Metropolitan,7717,Carport,950000
+Prahran,3/122 Williams Rd,2,u,S,Wilson,03-09-2016,4.5,3181,Southern Metropolitan,7717,Detached Garage,781000
+Preston,6 Dalgety St,3,h,S,Harcourts,03-09-2016,8.8,3072,Northern Metropolitan,14577,Attached Garage,1250000
+Preston,2 Eggleton Ct,3,h,VB,Ray,03-09-2016,8.8,3072,Northern Metropolitan,14577,Indoor,855000
+Preston,370 Gilbert Rd,4,h,S,Ray,03-09-2016,8.8,3072,Northern Metropolitan,14577,Parkade,930000
+Preston,164 Gower St,4,h,S,Nelson,03-09-2016,8.8,3072,Northern Metropolitan,14577,Underground,900000
+Preston,8 Larne Gr,3,h,S,Barry,03-09-2016,8.8,3072,Northern Metropolitan,14577,Outdoor Stall,1030000
+Preston,19 Malpas St,4,h,S,Nelson,03-09-2016,8.8,3072,Northern Metropolitan,14577,Carport,1004000
+Preston,5/492 Murray Rd,2,u,SP,hockingstuart,03-09-2016,8.8,3072,Northern Metropolitan,14577,Detached Garage,540000
+Preston,376 Plenty Rd,3,h,SP,Barry,03-09-2016,8.8,3072,Northern Metropolitan,14577,Attached Garage,930000
+Reservoir,36a Ashton St,3,u,S,Barry,03-09-2016,11.2,3073,Northern Metropolitan,21650,Indoor,666000
+Reservoir,3/39 Chaleyer St,2,u,S,Barry,03-09-2016,11.2,3073,Northern Metropolitan,21650,Carport,
+Reservoir,1/21 Dumbarton St,3,u,S,Ray,03-09-2016,11.2,3073,Northern Metropolitan,21650,Detached Garage,475000
+Reservoir,39 Gertz Av,5,h,W,Barry,03-09-2016,11.2,3073,Northern Metropolitan,21650,Attached Garage,
+Reservoir,1 Grimwade St,3,h,S,Nelson,03-09-2016,11.2,3073,Northern Metropolitan,21650,Indoor,738000
+Reservoir,2/50 Lane Cr,2,t,PI,Barry,03-09-2016,11.2,3073,Northern Metropolitan,21650,Parkade,355000
+Reservoir,62 Liston Av,3,h,S,Stockdale,03-09-2016,11.2,3073,Northern Metropolitan,21650,Carport,590000
+Reservoir,108 McMahon Rd,2,h,SN,McGrath,03-09-2016,11.2,3073,Northern Metropolitan,21650,Detached Garage,
+Reservoir,1/147 Purinuan Rd,2,u,PI,Ray,03-09-2016,11.2,3073,Northern Metropolitan,21650,Attached Garage,415000
+Reservoir,1/39 Winter Cr,2,h,S,Nelson,03-09-2016,11.2,3073,Northern Metropolitan,21650,Indoor,428000
+Richmond,24 Butler St,2,h,S,Biggin,03-09-2016,2.6,3121,Northern Metropolitan,14949,Carport,937000
+Richmond,81 Erin St,3,h,S,Biggin,03-09-2016,2.6,3121,Northern Metropolitan,14949,Detached Garage,1260000
+Richmond,49 Glass St,3,h,PI,Biggin,03-09-2016,2.6,3121,Northern Metropolitan,14949,Attached Garage,1820000
+Richmond,52 Lyndhurst St,3,t,S,Jellis,03-09-2016,2.6,3121,Northern Metropolitan,14949,Indoor,1236000
+Richmond,409/120 Palmer St,2,u,PI,LITTLE,03-09-2016,2.6,3121,Northern Metropolitan,14949,Parkade,540000
+Richmond,6/25 River St,2,u,S,hockingstuart,03-09-2016,2.6,3121,Northern Metropolitan,14949,Underground,795250
+Richmond,29/9 Tennyson St,2,u,S,Biggin,03-09-2016,2.6,3121,Northern Metropolitan,14949,Outdoor Stall,582000
+Richmond,2/65 Westbank Tce,1,u,SP,Domain,03-09-2016,2.6,3121,Northern Metropolitan,14949,Parking Pad,500000
+Rosanna,166 Bellevue Av,3,h,S,Fletchers,03-09-2016,11.4,3084,Eastern Metropolitan,3540,Carport,
+Rosanna,20 Douglas St,3,h,SN,Miles,03-09-2016,11.4,3084,Eastern Metropolitan,3540,Detached Garage,
+Rosanna,20 Rowell St,5,h,S,Nelson,03-09-2016,11.4,3084,Eastern Metropolitan,3540,Attached Garage,1101500
+Seddon,56 Hamilton St,3,h,S,Burnham,03-09-2016,6.6,3011,Western Metropolitan,2417,Indoor,1145000
+South Melbourne,806/50 Albert Rd,2,u,S,Dingle,03-09-2016,2.1,3205,Southern Metropolitan,5943,Parkade,593000
+South Melbourne,11 Howe Cr,4,h,VB,Marshall,03-09-2016,2.1,3205,Southern Metropolitan,5943,Underground,2000000
+South Melbourne,157 Napier St,3,h,SP,Marshall,03-09-2016,2.1,3205,Southern Metropolitan,5943,Outdoor Stall,1600000
+South Yarra,21/27 Avoca St,2,u,S,Jellis,03-09-2016,3.3,3141,Southern Metropolitan,14887,Parking Pad,531000
+South Yarra,101/40 Chapel Mw,2,u,S,Kay,03-09-2016,3.3,3141,Southern Metropolitan,14887,Carport,788750
+South Yarra,11/276 Domain Rd,1,u,S,hockingstuart,03-09-2016,3.3,3141,Southern Metropolitan,14887,Detached Garage,430000
+South Yarra,5/38 MacFarlan St,2,u,SP,Jellis,03-09-2016,3.3,3141,Southern Metropolitan,14887,Attached Garage,722000
+South Yarra,301/89 River St,2,u,S,hockingstuart,03-09-2016,3.3,3141,Southern Metropolitan,14887,Indoor,930000
+South Yarra,18/34 Rockley Rd,1,u,SP,McGrath,03-09-2016,3.3,3141,Southern Metropolitan,14887,Parkade,467500
+South Yarra,9/10 Tivoli Rd,2,u,PI,Buxton,03-09-2016,3.3,3141,Southern Metropolitan,14887,Underground,475000
+Southbank,41/106 Southbank Bvd,3,u,S,VICPROP,03-09-2016,1.2,3006,Southern Metropolitan,8400,Carport,720000
+Spotswood,73 The Avenue,3,h,S,hockingstuart,03-09-2016,7.7,3015,Western Metropolitan,1223,Detached Garage,1040000
+St Kilda,57 Acland St,4,h,PI,Marshall,03-09-2016,6.1,3182,Southern Metropolitan,13240,Attached Garage,
+St Kilda,1/170 Barkly St,2,u,S,hockingstuart,03-09-2016,6.1,3182,Southern Metropolitan,13240,Indoor,509000
+St Kilda,66 Blessington St,4,h,VB,hockingstuart,03-09-2016,6.1,3182,Southern Metropolitan,13240,Parkade,2400000
+St Kilda,31/12 Clyde St,1,u,PI,McGrath,03-09-2016,6.1,3182,Southern Metropolitan,13240,Carport,380000
+St Kilda,16/14 Mitford St,2,u,S,Gary,03-09-2016,6.1,3182,Southern Metropolitan,13240,Detached Garage,502000
+St Kilda,94 Pakington St,2,h,S,hockingstuart,03-09-2016,6.1,3182,Southern Metropolitan,13240,Attached Garage,
+St Kilda,96 Pakington St,4,h,S,hockingstuart,03-09-2016,6.1,3182,Southern Metropolitan,13240,Indoor,
+St Kilda,210/60 Wellington St,1,u,PI,hockingstuart,03-09-2016,6.1,3182,Southern Metropolitan,13240,Parkade,
+Strathmore,78 Hillsyde Pde,3,h,S,Considine,03-09-2016,9.7,3041,Western Metropolitan,3284,Underground,905000
+Strathmore,25 Loeman St,5,h,SP,Frank,03-09-2016,9.7,3041,Western Metropolitan,3284,Outdoor Stall,
+Strathmore,82 Strathnaver Av,4,h,S,Frank,03-09-2016,9.7,3041,Western Metropolitan,3284,Carport,1055000
+Strathmore,5 Wallace Cr,4,h,S,Nelson,03-09-2016,9.7,3041,Western Metropolitan,3284,Detached Garage,1390000
+Strathmore,27 Woolart St,4,h,S,Considine,03-09-2016,9.7,3041,Western Metropolitan,3284,Attached Garage,1052000
+Strathmore,30a York St,3,h,PI,McDonald,03-09-2016,9.7,3041,Western Metropolitan,3284,Indoor,
+Sunshine,7/51 Anderson Rd,2,u,PI,Barry,03-09-2016,12.6,3020,Western Metropolitan,3755,Parkade,
