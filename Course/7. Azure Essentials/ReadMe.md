@@ -383,6 +383,17 @@
 
 </details>
 
+## Azure Labs
+<details>
+  <summary>Click to expand!</summary>
+  
+### Azure VM
+### Azure Networking
+### Azure SQL
+### Azure Blob
+### Azure AppServices WebApps
+</details>
+
 ##  AzureML
 <details>
   <summary>Click to expand!</summary>
