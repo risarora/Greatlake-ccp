@@ -383,6 +383,21 @@
 
 </details>
 
+##  AzureML
+<details>
+  <summary>Click to expand!</summary>
+  
+### Why Azure ML Services?
+### AI services offered on Azure
+### Why Azure Machine Learning Studio?
+### Introduction to Azure ML and Loading Data
+### Data Manipulation
+### Visualizing Categorical Data
+### Visualizing Numerical Data (Mean, Median,Mode)
+### Box plot, Scatter plot, Pivot table
+### Overview of features in Azure ML
+</details>
+
 ## Data sets which can be used in Azure ML
 <details>
   <summary>Click to expand!</summary>
