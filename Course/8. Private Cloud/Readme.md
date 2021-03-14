@@ -13,6 +13,7 @@ Private Cloud
 <details>
  <summary>Click to expand!</summary>
  </details>
+ * [WhatisCloud.PNG](./images/WhatisCloud.PNG)
 
 ### Module 3 - What do you need to build your own Cloud ?(~15mins)
 <details>
