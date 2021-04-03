@@ -118,8 +118,13 @@ StormEvents | sort by StartTime desc
 ![image](https://user-images.githubusercontent.com/4485129/113478585-59161200-94a7-11eb-80c6-00863baa9c76.png)
 
 
-8.  Use value aggregation
-
-9.  
 
 </details>
+
+#### Delete the data 
+![image](https://user-images.githubusercontent.com/4485129/113478888-4c92b900-94a9-11eb-85a8-13600c347a75.png)
+* Delete Resource Group 
+![image](https://user-images.githubusercontent.com/4485129/113478951-9f6c7080-94a9-11eb-9e6c-65bdde3bf1a0.png)
+![image](https://user-images.githubusercontent.com/4485129/113478964-b1e6aa00-94a9-11eb-8ffa-86da23d9e70a.png)
+
+
