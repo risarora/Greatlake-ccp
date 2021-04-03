@@ -153,5 +153,6 @@ StormEvents | sort by StartTime desc
 
 ### References
 * https://www.jamesserra.com/archive/2019/03/azure-data-explorer/
-
+* https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/big-data-azure-data-explorer
+* https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/interactive-azure-data-explorer
 
