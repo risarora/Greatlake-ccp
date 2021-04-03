@@ -158,5 +158,13 @@ StormEvents | sort by StartTime desc
 * https://techcommunity.microsoft.com/t5/azure-data-explorer/announcing-azure-data-explorer-data-connector-for-azure-synapse/ba-p/1743868
 * https://azure.microsoft.com/en-us/blog/azure-data-explorer-and-stream-analytics-for-anomaly-detection/
 * https://www.drware.com/integration-of-azure-data-explorer-with-cosmos-db-for-near-real-time-analytics/
-* 
+* https://azureinfohub.azurewebsites.net/Search/Query
+* https://crmanalytics.net/integration-tools/azure-data-factory/reference-architecture-data-factory/
+* https://docs.microsoft.com/en-us/azure/architecture/browse/
+* https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/big-data-azure-data-explorer
+* https://docs.microsoft.com/en-us/azure/azure-monitor/logs/azure-data-explorer-query-storage
+* https://docs.microsoft.com/en-us/azure/data-explorer/ingest-data-event-hub
+* https://docs.microsoft.com/en-us/azure/data-explorer/vnet-deployment
+* https://docs.microsoft.com/en-us/azure/network-watcher/view-network-topology
+ 
 
