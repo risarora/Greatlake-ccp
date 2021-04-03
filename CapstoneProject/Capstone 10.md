@@ -32,6 +32,7 @@ Connect to database
 ### Step 2 - Ingest Sample Data https://docs.microsoft.com/en-us/azure/data-explorer/web-query-data
 <details>
 1. Login to https://dataexplorer.azure.com/#
+
 ![image](https://user-images.githubusercontent.com/4485129/113470422-25b99000-9473-11eb-8370-102b667bbd5a.png)
 
 2. Assign role to access cluster
