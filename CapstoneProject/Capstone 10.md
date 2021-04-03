@@ -3,6 +3,19 @@ Azure Data Explorer is a fast and highly scalable data exploration service for l
 
 ### Step 1 - Create Cluster Database https://docs.microsoft.com/en-us/azure/data-explorer/create-cluster-database-portal
 <details>
+  
+#### Azure Data Expolorer
+
+![image](https://user-images.githubusercontent.com/4485129/113469767-edfc1980-946d-11eb-9843-67359a7beafa.png)
+
+1. Create Azure Data Explorer
+![image](https://user-images.githubusercontent.com/4485129/113470128-c5295380-9470-11eb-8f60-0c8fb93661cd.png)
+
+
+3. Create a database
+4. Run basic commands in the database
+
+ 
 </details>
 
 ### Step 2 - Ingest Sample Data https://docs.microsoft.com/en-us/azure/data-explorer/web-query-data
