@@ -78,5 +78,47 @@ StormEvents
 
 ### Step 3 - Web Query Data https://docs.microsoft.com/en-us/azure/data-explorer/web-query-data
 <details>
-  
+
+1. Add help cluster
+  * In the upper left of the application, select Add Cluster.
+  * In the Add cluster dialog box, enter the URI https://help.kusto.windows.net, then select Add.
+    ![image](https://user-images.githubusercontent.com/4485129/113478317-bf9a3080-94a5-11eb-9dc0-51ccae74a870.png)
+
+  * In the left pane, you should now see the help cluster. Expand the Samples database and open the Tables folder to see the sample tables that you have access to.
+    ![image](https://user-images.githubusercontent.com/4485129/113478364-0a1bad00-94a6-11eb-8837-4ebb6c102f32.png)
+
+2. Get data from cluster
+  ![image](https://user-images.githubusercontent.com/4485129/113478407-47803a80-94a6-11eb-9f56-f802b6a0c95e.png)
+
+
+4. Format Query 
+```
+StormEvents | sort by StartTime desc 
+| project StartTime, EndTime, State, EventType, DamageProperty, EpisodeNarrative | take 10
+```
+
+* ![image](https://user-images.githubusercontent.com/4485129/113478439-75657f00-94a6-11eb-8a07-cae64a65b120.png)
+
+![image](https://user-images.githubusercontent.com/4485129/113478420-5d8dfb00-94a6-11eb-88c3-171b3ac50733.png)
+![image](https://user-images.githubusercontent.com/4485129/113478473-98902e80-94a6-11eb-85e2-9cd8ebc5192e.png)
+
+5.  Execute Query 
+![image](https://user-images.githubusercontent.com/4485129/113478489-ae9def00-94a6-11eb-8dcd-3062c4a2f122.png)
+
+
+6. Execute Second Query 
+![image](https://user-images.githubusercontent.com/4485129/113478503-c5444600-94a6-11eb-8852-16a64a8d3804.png)
+
+
+7.  Group Columns by result
+![image](https://user-images.githubusercontent.com/4485129/113478561-3126ae80-94a7-11eb-97e7-7c8671308027.png)
+![image](https://user-images.githubusercontent.com/4485129/113478569-3c79da00-94a7-11eb-9e67-83c4ededd138.png)
+![image](https://user-images.githubusercontent.com/4485129/113478580-4d2a5000-94a7-11eb-9c09-8e06232830dd.png)
+![image](https://user-images.githubusercontent.com/4485129/113478585-59161200-94a7-11eb-80c6-00863baa9c76.png)
+
+
+8.  Use value aggregation
+
+9.  
+
 </details>
