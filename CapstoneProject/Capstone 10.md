@@ -155,4 +155,8 @@ StormEvents | sort by StartTime desc
 * https://www.jamesserra.com/archive/2019/03/azure-data-explorer/
 * https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/big-data-azure-data-explorer
 * https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/interactive-azure-data-explorer
+* https://techcommunity.microsoft.com/t5/azure-data-explorer/announcing-azure-data-explorer-data-connector-for-azure-synapse/ba-p/1743868
+* https://azure.microsoft.com/en-us/blog/azure-data-explorer-and-stream-analytics-for-anomaly-detection/
+* https://www.drware.com/integration-of-azure-data-explorer-with-cosmos-db-for-near-real-time-analytics/
+* 
 
