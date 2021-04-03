@@ -122,9 +122,21 @@ StormEvents | sort by StartTime desc
 </details>
 
 #### Delete the data 
+
+<details>
+  
 ![image](https://user-images.githubusercontent.com/4485129/113478888-4c92b900-94a9-11eb-85a8-13600c347a75.png)
+  
 * Delete Resource Group 
 ![image](https://user-images.githubusercontent.com/4485129/113478951-9f6c7080-94a9-11eb-9e6c-65bdde3bf1a0.png)
+  
 ![image](https://user-images.githubusercontent.com/4485129/113478964-b1e6aa00-94a9-11eb-8ffa-86da23d9e70a.png)
 
+</details>
 
+### Pricing
+<details>
+  
+![image](https://user-images.githubusercontent.com/4485129/113479099-95973d00-94aa-11eb-9a2c-ac56f02f382b.png)
+
+</details>
