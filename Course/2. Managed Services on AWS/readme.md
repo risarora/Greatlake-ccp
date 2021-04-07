@@ -55,6 +55,16 @@
 
 </details>
 
+## Notes and Presentations
+<details>
+  <summary>Click to expand!</summary>
+  
+* [Managed Services on AWS- Notes.pdf](https://github.com/risarora/Greatlake-ccp/files/6274169/Managed.Services.on.AWS-.Notes.pdf)
+
+* [Managed Services on AWS .pdf](https://github.com/risarora/Greatlake-ccp/files/6274160/Managed.Services.on.AWS.pdf)
+
+</details>
+
 ## Additional - CloudFront
 <details>
   <summary>Click to expand!</summary>
