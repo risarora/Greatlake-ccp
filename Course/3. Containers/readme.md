@@ -46,3 +46,6 @@ These updates and changes do not impact the core operations of Docker.
 
 * [Containers.pdf](https://github.com/risarora/Greatlake-ccp/files/6274194/Containers.pdf)
 
+## Practice Exercise
+
+[PRACTICE_LAB_Container_Docker_Images_Containers_Scripts.pdf](https://github.com/risarora/Greatlake-ccp/files/6274222/PRACTICE_LAB_Container_Docker_Images_Containers_Scripts.pdf)
