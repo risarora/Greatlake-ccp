@@ -41,3 +41,8 @@ These updates and changes do not impact the core operations of Docker.
 
 
 ## Additional - Landscape of Kubernetes (~2hr 15mins)
+
+## Notes
+
+* [Containers.pdf](https://github.com/risarora/Greatlake-ccp/files/6274194/Containers.pdf)
+
