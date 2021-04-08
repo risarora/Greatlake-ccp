@@ -124,6 +124,16 @@ docker save <IMAGE ID> > dockerimage.tar
 
 
 ### Module 6 - Amazon Elastic Container Services(~15 mins)
+
+* Load Balancer
+* Target Group
+* Amazon ECS Fargate
+* Amazon ECR
+* Auto Scaling Groups
+* Capacity, Task and Fraud
+* Vertical and Horizontal Scalability.
+
+
 ### Module 7 - Amazon ECS & Docker - Hands On(~1hr)
 
 </details>
