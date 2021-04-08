@@ -35,6 +35,7 @@ These updates and changes do not impact the core operations of Docker.
  
 ### Module 5 - Deploying a Java Web App using Docker Containers(~1hr)
 
+#### Create docker container
 ```
 docker pull tomcat:jre8
 
@@ -77,8 +78,46 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 d34a7c5f24de        tomcat:jre8         "catalina.sh run"   About a minute ago   Up About a minute   0.0.0.0:80->8080/tcp   agitated_snyder
 bash-3.2$ 
 
+bash-3.2$ docker stop agitated_snyder
+agitated_snyder
+
 ```
 
+#### Run 2 docker container one for port 80 and the 8080
+```
+bash-3.2$ docker exec -it agitated_snyder bash 
+Error response from daemon: Container d34a7c5f24de72739085e4b46a400efc12c79abf0997422982fc26bf0b8a3a5b is not running
+bash-3.2$ docker start agitated_snyder
+agitated_snyder
+bash-3.2$ docker exec -it agitated_snyder bash 
+root@d34a7c5f24de:/usr/local/tomcat# ls
+BUILDING.txt	 LICENSE  README.md	 RUNNING.txt  conf     lib   native-jni-lib  webapps
+CONTRIBUTING.md  NOTICE   RELEASE-NOTES  bin	      include  logs  temp	     work
+root@d34a7c5f24de:/usr/local/tomcat# cd webapps/
+root@d34a7c5f24de:/usr/local/tomcat/webapps# ls
+ROOT  docs  examples  host-manager  manager
+root@d34a7c5f24de:/usr/local/tomcat/webapps# ls -al
+total 28
+drwxr-xr-x  7 root root  4096 May  4  2019 .
+drwxr-sr-x  1 root staff 4096 May 16  2019 ..
+drwxr-xr-x  3 root root  4096 May 16  2019 ROOT
+drwxr-xr-x 14 root root  4096 May 16  2019 docs
+drwxr-xr-x  6 root root  4096 May 16  2019 examples
+drwxr-xr-x  5 root root  4096 May 16  2019 host-manager
+drwxr-xr-x  5 root root  4096 May 16  2019 manager
+root@d34a7c5f24de:/usr/local/tomcat/webapps# cp Helloword.war .
+cp: cannot stat 'Helloword.war': No such file or directory
+root@d34a7c5f24de:/usr/local/tomcat/webapps# 
+
+```
+
+
+docker run -p -d 80:8080 -v 
+```
+
+
+
+#### Commit docker container
 
 ### Module 6 - Amazon Elastic Container Services(~15 mins)
 ### Module 7 - Amazon ECS & Docker - Hands On(~1hr)
