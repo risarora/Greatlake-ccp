@@ -112,12 +112,16 @@ root@d34a7c5f24de:/usr/local/tomcat/webapps#
 ```
 
 
-docker run -p -d 80:8080 -v 
-```
-
 
 
 #### Commit docker container
+```
+docker run -p -d 80:8080 -v 
+
+docker commit 
+docker save <IMAGE ID> > dockerimage.tar
+```
+
 
 ### Module 6 - Amazon Elastic Container Services(~15 mins)
 ### Module 7 - Amazon ECS & Docker - Hands On(~1hr)
