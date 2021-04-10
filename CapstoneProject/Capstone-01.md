@@ -26,6 +26,16 @@
 
 ### Step 3. Update the Systems Manager Agent
 <details>
+  
+Go to AWS Systems Manager -> Fleet Manager -> Managed Instances 
+![image](https://user-images.githubusercontent.com/4485129/114269783-5dea4100-9a26-11eb-9bf9-358875f94898.png)
+
+Select Node Management -> Run Command
+Select **AWS-UpdateSSMAgent.** in **Command Document**
+![image](https://user-images.githubusercontent.com/4485129/114269922-2039e800-9a27-11eb-8384-a275ba408146.png)
+
+Select **Choose instances manually** in **Target**  
+![image](https://user-images.githubusercontent.com/4485129/114269974-6ee78200-9a27-11eb-9fec-257c9b6cb00e.png)
 
 1. A numbered
 2. list
