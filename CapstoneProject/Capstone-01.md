@@ -187,6 +187,7 @@ Configure Jenkins Cloud
 ### Step 5. Step 4: Clean Up
 <details>
 Terminate EC2 Instance
+  
 ![image](https://user-images.githubusercontent.com/4485129/114277235-f9d87480-9a47-11eb-8def-7ada7ea6713b.png)
 
 1. Additional Resources
