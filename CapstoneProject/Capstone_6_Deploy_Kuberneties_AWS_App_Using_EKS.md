@@ -46,5 +46,39 @@ PS D:\Cloud\aws-CLI> aws cloudformation create-stack --stack-name my-eks-vpc-sta
 ![image](https://user-images.githubusercontent.com/4485129/114265283-97fb1900-9a0d-11eb-9d08-e7bfe7c6fe3f.png)
 
 
+##### Create a cluster IAM role and attach the required Amazon EKS IAM managed policy to it.
+
+a. Copy the following contents to a file named cluster-role-trust-policy.json.
+```
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "eks.amazonaws.com"
+      },
+      "Action": "sts:AssumeRole"
+    }
+  ]
+}
+```
+
+* Create the role
+```
+aws iam create-role --role-name myAmazonEKSClusterRole --assume-role-policy-document file://"cluster-role-trust-policy.json"
+``` 
+![image](https://user-images.githubusercontent.com/4485129/114265461-7f3f3300-9a0e-11eb-97fa-885f045891e3.png)
+
+* Attach the required Amazon EKS managed IAM policy to the role.
+```
+aws iam attach-role-policy \
+  --policy-arn arn:aws:iam::aws:policy/AmazonEKSClusterPolicy \
+  --role-name myAmazonEKSClusterRole
+ ```
+
+##### Create Cluster EKS 
+* Open the Amazon EKS console at https://console.aws.amazon.com/eks/home#/clusters.
+
 
 ![image](https://user-images.githubusercontent.com/4485129/114264978-bfe97d00-9a0b-11eb-99e4-1f67b259a9a2.png)
