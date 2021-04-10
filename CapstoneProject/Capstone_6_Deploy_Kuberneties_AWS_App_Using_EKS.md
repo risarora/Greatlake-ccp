@@ -33,6 +33,18 @@ This tutorial will cost you less than $0.60*.
 ![image](https://user-images.githubusercontent.com/4485129/114265058-4900b400-9a0c-11eb-816f-867658d3dfe0.png)
 
 #### Create an Amazon VPC with public and private subnets that meets Amazon EKS requirements.
+```
+PS D:\Cloud\aws-CLI> aws cloudformation create-stack --stack-name my-eks-vpc-stack --template-url https://s3.us-west-2.amazonaws.com/amazon-eks/cloudformation/2020-10-29/amazon-eks-vpc-private-subnets.yaml
+```
+
+* AWS CLI
+![image](https://user-images.githubusercontent.com/4485129/114265225-45b9f800-9a0d-11eb-8fb2-b7ca5df8205b.png)
+
+* AWS Console 
+![image](https://user-images.githubusercontent.com/4485129/114265268-78fc8700-9a0d-11eb-8e39-6cb541499b49.png)
+
+![image](https://user-images.githubusercontent.com/4485129/114265283-97fb1900-9a0d-11eb-9d08-e7bfe7c6fe3f.png)
+
 
 
 ![image](https://user-images.githubusercontent.com/4485129/114264978-bfe97d00-9a0b-11eb-99e4-1f67b259a9a2.png)
