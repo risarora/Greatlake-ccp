@@ -105,6 +105,8 @@ Introduction
 
 
 2. Download and Install Jenkins
+
+* Update the server
 ```
 [ec2-user@ip-172-31-60-53 ~]$ sudo yum update -y
 Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
@@ -118,7 +120,10 @@ Updated:
 Complete!
 [ec2-user@ip-172-31-60-53 ~]$ 
 
-Install Java8
+```
+
+* Install Java8
+
 ```
 [ec2-user@ip-172-31-60-53 ~]$ sudo yum install java-1.8*
 Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
@@ -135,8 +140,8 @@ Complete!
 
 ```
 
-```
-Install Jenkins
+* Install Jenkins
+
 ```
 [ec2-user@ip-172-31-60-53 ~]$ sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
 --2021-04-10 15:53:27--  http://pkg.jenkins-ci.org/redhat/jenkins.repo
@@ -154,8 +159,9 @@ Saving to: ‘/etc/yum.repos.d/jenkins.repo’
 
 ```
 
+* Start Jenkins 
 ```
-Complete!
+
 [ec2-user@ip-172-31-60-53 ~]$ sudo service jenkins start
 
 Starting jenkins (via systemctl):                          [  OK  ]
