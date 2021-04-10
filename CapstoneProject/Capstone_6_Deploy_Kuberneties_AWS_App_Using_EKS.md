@@ -10,17 +10,29 @@ Implementation has 3 steps
 * Autoscaling https://docs.aws.amazon.com/eks/latest/userguide/cluster-autoscaler.html
 * Deploy an App https://docs.aws.amazon.com/eks/latest/userguide/sample-deployment.html
 
-## Architecture
+
+## Overview 
+### Architecture
 ![image](https://user-images.githubusercontent.com/4485129/114260255-5492b180-99f1-11eb-8eb5-6c1255e81a39.png)
 
-## Objective 
+### Objective 
 To deploy a containerized application onto a Kubernetes cluster managed by Amazon Elastic Container Service for Kubernetes (Amazon EKS)
 
-## Cost to complete:  
+### Cost to complete:  
 This tutorial will cost you less than $0.60*.
  
-## Technologies used:
+### Technologies used:
 * An active AWS account**
 * Amazon EKS
 * Elastic Load Balancing
 * kubectl
+
+
+## Steps 
+#### Configure aws cli
+![image](https://user-images.githubusercontent.com/4485129/114265058-4900b400-9a0c-11eb-816f-867658d3dfe0.png)
+
+#### Create an Amazon VPC with public and private subnets that meets Amazon EKS requirements.
+
+
+![image](https://user-images.githubusercontent.com/4485129/114264978-bfe97d00-9a0b-11eb-99e4-1f67b259a9a2.png)
