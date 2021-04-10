@@ -73,7 +73,7 @@
 ## Set Up a Jenkins Build Server
 <details>
 <summary>Click to expand!</summary>
-  
+ 
 Introduction
 
 ### Step 1: Set Up Prerequisites
@@ -101,7 +101,67 @@ Introduction
 <details>
 
 1. Connect to Your Linux Instance
+![image](https://user-images.githubusercontent.com/4485129/114276033-8d0eab80-9a42-11eb-84b6-76dd7b634553.png)
+
+
 2. Download and Install Jenkins
+```
+[ec2-user@ip-172-31-60-53 ~]$ sudo yum update -y
+Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+Resolving Dependencies
+.........
+  python3-pystache.noarch 0:0.5.4-12.amzn2.0.1           python3-setuptools.noarch 0:38.4.0-3.amzn2.0.6           python3-simplejson.x86_64 0:3.2.0-1.amzn2.0.2
+
+Updated:
+  amazon-ssm-agent.x86_64 0:3.0.529.0-1.amzn2                                            aws-cfn-bootstrap.noarch 0:2.0-6.amzn2
+
+Complete!
+[ec2-user@ip-172-31-60-53 ~]$ 
+
+Install Java8
+```
+[ec2-user@ip-172-31-60-53 ~]$ sudo yum install java-1.8*
+Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+amzn2-core                                                                                                                                         | 3.7 kB  00:00:00     
+Resolving Dependencies
+--> Running transaction check
+---> Package java-1.8.0-openjdk.x86_64 1:1.8.0.282.b08-1.amzn2.0.1 will be installed
+
+....
+
+
+Complete!
+[ec2-user@ip-172-31-60-53 ~]$
+
+```
+
+```
+Install Jenkins
+```
+[ec2-user@ip-172-31-60-53 ~]$ sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
+--2021-04-10 15:53:27--  http://pkg.jenkins-ci.org/redhat/jenkins.repo
+Resolving pkg.jenkins-ci.org (pkg.jenkins-ci.org)... 52.202.51.185
+Connecting to pkg.jenkins-ci.org (pkg.jenkins-ci.org)|52.202.51.185|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 71
+Saving to: ‘/etc/yum.repos.d/jenkins.repo’
+
+100%[================================================================================================================================>] 71          --.-K/s   in 0s       
+
+2021-04-10 15:53:27 (12.9 MB/s) - ‘/etc/yum.repos.d/jenkins.repo’ saved [71/71]
+
+[ec2-user@ip-172-31-60-53 ~]$
+
+```
+
+```
+Complete!
+[ec2-user@ip-172-31-60-53 ~]$ sudo service jenkins start
+
+Starting jenkins (via systemctl):                          [  OK  ]
+[ec2-user@ip-172-31-60-53 ~]$
+```
+
 3. Configure Jenkins
 </details>
 
