@@ -47,10 +47,14 @@
 ### Step 4. Run a Remote Shell Script
 <details>
 
-1. A numbered
-2. list
-   * With some
-   * Sub bullets
+![image](https://user-images.githubusercontent.com/4485129/114270359-92133100-9a29-11eb-8456-74d7f41d8041.png)
+
+![image](https://user-images.githubusercontent.com/4485129/114270380-a5be9780-9a29-11eb-899a-3473238dbf11.png)
+
+![image](https://user-images.githubusercontent.com/4485129/114270387-ae16d280-9a29-11eb-8db1-5e41b0532516.png)
+
+![image](https://user-images.githubusercontent.com/4485129/114270403-ba9b2b00-9a29-11eb-9770-75e615fd9c7e.png)
+
 </details>
 
 ### Step 5. Terminate Your Resources
