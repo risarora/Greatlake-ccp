@@ -5,10 +5,10 @@
 ### Step 1. Create an Identity and Access Management (IAM) role
 <details>
 
-1. A numbered
-2. list
-   * With some
-   * Sub bullets
+1. ![image](https://user-images.githubusercontent.com/4485129/114268311-0b0c8b80-9a1e-11eb-89aa-1f90059f11e8.png)
+
+2. ![image](https://user-images.githubusercontent.com/4485129/114268320-1b246b00-9a1e-11eb-9af2-e4214639422d.png)
+
 </details>
 
 
