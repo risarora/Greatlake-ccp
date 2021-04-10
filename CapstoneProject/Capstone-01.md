@@ -169,11 +169,25 @@ Starting jenkins (via systemctl):                          [  OK  ]
 ```
 
 3. Configure Jenkins
+![image](https://user-images.githubusercontent.com/4485129/114276777-cb599a00-9a45-11eb-939a-1ea322768f74.png)
+
+
+![image](https://user-images.githubusercontent.com/4485129/114276768-c09f0500-9a45-11eb-9b50-296e001a7092.png)
+
+Configure Jenkins Cloud 
+![image](https://user-images.githubusercontent.com/4485129/114276991-ccd79200-9a46-11eb-892c-350517290e56.png)
+
+![image](https://user-images.githubusercontent.com/4485129/114277041-11fbc400-9a47-11eb-9c99-b5917ac225f9.png)
+
+![image](https://user-images.githubusercontent.com/4485129/114277214-ed541c00-9a47-11eb-9901-521d37519164.png)
+
 </details>
 
 
 ### Step 5. Step 4: Clean Up
 <details>
+Terminate EC2 Instance
+![image](https://user-images.githubusercontent.com/4485129/114277235-f9d87480-9a47-11eb-8def-7ada7ea6713b.png)
 
 1. Additional Resources
 
