@@ -28,7 +28,8 @@ This tutorial will cost you less than $0.60*.
 * kubectl
 
 
-## Steps 
+### Step 1: Create your Amazon EKS cluster
+ 
 #### Configure aws cli
 ![image](https://user-images.githubusercontent.com/4485129/114265058-4900b400-9a0c-11eb-816f-867658d3dfe0.png)
 
@@ -80,5 +81,20 @@ aws iam attach-role-policy \
 ##### Create Cluster EKS 
 * Open the Amazon EKS console at https://console.aws.amazon.com/eks/home#/clusters.
 
+![image](https://user-images.githubusercontent.com/4485129/114266124-2ffb0180-9a12-11eb-815c-00e712ff4d99.png)
+
+![image](https://user-images.githubusercontent.com/4485129/114266152-502ac080-9a12-11eb-8adf-cfef5fb2fd2c.png)
 
 ![image](https://user-images.githubusercontent.com/4485129/114264978-bfe97d00-9a0b-11eb-99e4-1f67b259a9a2.png)
+
+### Step 2: Configure your computer to communicate with your cluster
+#### Create or update a kubeconfig file for your cluster. If necessary, replace us-west-2 with the Region that you created your cluster in.
+```
+aws eks update-kubeconfig --region us-east-1 --name my-cluster
+````
+By default, the config file is created in ~/.kube or the new cluster's configuration is added to an existing config file in ~/.kube.
+
+#### Test your configuration.
+```
+kubectl get svc
+```
