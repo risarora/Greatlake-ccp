@@ -27,20 +27,21 @@
 ### Step 3. Update the Systems Manager Agent
 <details>
   
-Go to AWS Systems Manager -> Fleet Manager -> Managed Instances 
+1. Go to AWS Systems Manager -> Fleet Manager -> Managed Instances 
 ![image](https://user-images.githubusercontent.com/4485129/114269783-5dea4100-9a26-11eb-9bf9-358875f94898.png)
 
-Select Node Management -> Run Command
-Select **AWS-UpdateSSMAgent.** in **Command Document**
+2. Select Node Management -> Run Command
+3. Select **AWS-UpdateSSMAgent.** in **Command Document**
 ![image](https://user-images.githubusercontent.com/4485129/114269922-2039e800-9a27-11eb-8384-a275ba408146.png)
 
-Select **Choose instances manually** in **Target**  
+4. Select **Choose instances manually** in **Target**  
 ![image](https://user-images.githubusercontent.com/4485129/114269974-6ee78200-9a27-11eb-9fec-257c9b6cb00e.png)
 
-1. A numbered
-2. list
-   * With some
-   * Sub bullets
+5. Click on Run
+
+6. Output 
+![image](https://user-images.githubusercontent.com/4485129/114270045-d00f5580-9a27-11eb-9c29-374e1d9f7941.png)
+
 </details>
 
 ### Step 4. Run a Remote Shell Script
