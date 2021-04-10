@@ -14,6 +14,7 @@
 
 ### Step 2. Create an EC2 instance
 <details>
+1. ![image](https://user-images.githubusercontent.com/4485129/114269228-5e350d00-9a23-11eb-83dc-4e5ad585f2af.png)
 
 1. ![image](https://user-images.githubusercontent.com/4485129/114268713-2f696780-9a20-11eb-9043-05af106eb833.png)
 2. ![image](https://user-images.githubusercontent.com/4485129/114268768-8a02c380-9a20-11eb-82db-430301305ee5.png)
