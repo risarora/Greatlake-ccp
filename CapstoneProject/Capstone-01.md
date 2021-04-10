@@ -5,9 +5,13 @@
 ### Step 1. Create an Identity and Access Management (IAM) role
 <details>
 
-1. ![image](https://user-images.githubusercontent.com/4485129/114268311-0b0c8b80-9a1e-11eb-89aa-1f90059f11e8.png)
+1. Attach Policy AmazonEC2RoleforSSM  
+![image](https://user-images.githubusercontent.com/4485129/114269403-7fe2c400-9a24-11eb-95ed-e41128c01a0b.png)
 
-2. ![image](https://user-images.githubusercontent.com/4485129/114268320-1b246b00-9a1e-11eb-9af2-e4214639422d.png)
+2. Assign name <mark> EnablesEC2ToAccessSystemsManagerRole</mark> to role
+![image](https://user-images.githubusercontent.com/4485129/114269442-bd475180-9a24-11eb-9373-71c455d8ac38.png)
+3. Create the role.
+![image](https://user-images.githubusercontent.com/4485129/114269500-0e574580-9a25-11eb-9140-94c07fbf2b37.png)
 
 </details>
 
