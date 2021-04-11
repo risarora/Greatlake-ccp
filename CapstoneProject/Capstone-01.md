@@ -2,10 +2,12 @@
 
 ## Remotely Run Commands on an EC2 Instance
 <details>
-<summary>Click to expand!</summary>
 <details>
+
+<summary>Click to expand!</summary>
   
 ## AWS Architecture 
+<details>
 
 ![AWS Systems Manager](https://user-images.githubusercontent.com/4485129/114305976-f270a400-9af7-11eb-8aff-b3dc31d13c34.png)
 
@@ -99,8 +101,9 @@ Delete the EC2 Machine
 <details>
 
 https://medium.com/workfall/how-to-run-commands-remotely-on-an-ec2-instance-using-aws-systems-manager-351284decbd4
-</details>
 
+</details>
+<details>
 
 </details>
 
