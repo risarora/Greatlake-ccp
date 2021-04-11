@@ -2,7 +2,6 @@
 
 ## Remotely Run Commands on an EC2 Instance
 <details>
-<details>
 
 <summary>Click to expand!</summary>
   
@@ -112,7 +111,15 @@ https://medium.com/workfall/how-to-run-commands-remotely-on-an-ec2-instance-usin
 <details>
 <summary>Click to expand!</summary>
  
-Introduction
+## Introduction
+
+### Architecture 
+
+<details>
+
+![Jenkins Setup](https://user-images.githubusercontent.com/4485129/114307383-01a62080-9afd-11eb-81dc-16faa35741d1.png)
+
+</details>
 
 ### Step 1: Set Up Prerequisites
 <details>
