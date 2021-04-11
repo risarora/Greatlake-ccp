@@ -1,3 +1,9 @@
+AWS Systems Manager provides its users visibility and control of their infrastructure on AWS. It has a unified user interface so one can view operational data from multiple AWS services and lets the user to automate operational tasks across AWS resources.Systems Manager, can group resources, like Amazon EC2 instances, Amazon S3 buckets, or Amazon RDS instances, by application, view operational data for monitoring and troubleshooting, and act on groups of resources.
+
+## AWS Architecture 
+
+![AWS Systems Manager](https://user-images.githubusercontent.com/4485129/114305976-f270a400-9af7-11eb-8aff-b3dc31d13c34.png)
+
 ## Remotely Run Commands on an EC2 Instance
 <details>
 <summary>Click to expand!</summary>
