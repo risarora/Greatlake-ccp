@@ -1,6 +1,11 @@
 # AWS Run Commands on an EC2 Instance using System Manager
 
+## AWS Architecture 
+
+![AWS Systems Manager](https://user-images.githubusercontent.com/4485129/114305976-f270a400-9af7-11eb-8aff-b3dc31d13c34.png)
+
 </details>
+
 ### AWS Systems Manager
 
 AWS Systems Manager provides the admins visibility and control over the machines deployed on AWS. 
@@ -23,9 +28,6 @@ Actions that are performed by SSM on your instances are defined by Systems Manag
 
 </details>
 
-## AWS Architecture 
-
-![AWS Systems Manager](https://user-images.githubusercontent.com/4485129/114305976-f270a400-9af7-11eb-8aff-b3dc31d13c34.png)
 
 ## Remotely Run Commands on an EC2 Instance
 <details>
