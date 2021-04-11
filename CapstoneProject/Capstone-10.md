@@ -151,6 +151,15 @@ StormEvents | sort by StartTime desc
 <details>
   
 ![image](https://user-images.githubusercontent.com/4485129/113479099-95973d00-94aa-11eb-9a2c-ac56f02f382b.png)
+![image](https://user-images.githubusercontent.com/4485129/114316279-7d659480-9b20-11eb-8624-f9babac5ef5c.png)
+
+
+Azure Data Explorer markup
+Model | Price
+---|---
+Pay as you go| ₹7.925/core per hour	
+One year reserved (% Savings) | ₹6.7356/hour (~15% savings)	
+Three year reserved(% Savings) | ₹5.5490/hour (~30% savings)
 
 </details>
 
