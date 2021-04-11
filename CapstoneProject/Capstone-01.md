@@ -91,17 +91,21 @@ Actions that are performed by SSM on your instances are defined by Systems Manag
 ### Step 5. Terminate Your Resources
 <details>
 
-1. A numbered
-2. list
-   * With some
-   * Sub bullets
+Delete the EC2 Machine 
+
+</details>
+
+### References 
+<details>
+
+https://medium.com/workfall/how-to-run-commands-remotely-on-an-ec2-instance-using-aws-systems-manager-351284decbd4
 </details>
 
 
 </details>
 
 
-## Set Up a Jenkins Build Server
+# Set Up a Jenkins Build Server
 <details>
 <summary>Click to expand!</summary>
  
@@ -109,11 +113,7 @@ Introduction
 
 ### Step 1: Set Up Prerequisites
 <details>
-  
-1. A numbered
-2. list
-   * With some
-   * Sub bullets
+1. AWS Account
 </details>
 
 
@@ -125,14 +125,11 @@ Introduction
 
 </details>
 
-
-
 ### Step 3: Install and Configure Jenkins
 <details>
 
 1. Connect to Your Linux Instance
 ![image](https://user-images.githubusercontent.com/4485129/114276033-8d0eab80-9a42-11eb-84b6-76dd7b634553.png)
-
 
 2. Download and Install Jenkins
 
