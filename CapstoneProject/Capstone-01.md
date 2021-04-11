@@ -1,5 +1,10 @@
 # AWS Run Commands on an EC2 Instance using System Manager
 
+## Remotely Run Commands on an EC2 Instance
+<details>
+<summary>Click to expand!</summary>
+<details>
+  
 ## AWS Architecture 
 
 ![AWS Systems Manager](https://user-images.githubusercontent.com/4485129/114305976-f270a400-9af7-11eb-8aff-b3dc31d13c34.png)
@@ -27,11 +32,6 @@ Generally it is preinstalled with a lot of Amazon Machine Images (AMIs) but has 
 Actions that are performed by SSM on your instances are defined by Systems Manager.
 
 </details>
-
-
-## Remotely Run Commands on an EC2 Instance
-<details>
-<summary>Click to expand!</summary>
   
 ### Step 1. Create an Identity and Access Management (IAM) role
 <details>
