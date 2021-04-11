@@ -4,9 +4,13 @@ Azure Data Explorer is a fast and highly scalable data exploration service for l
 
 ## Architecture 
 <details>
+  
+![Azure Data Explorer](https://user-images.githubusercontent.com/4485129/114316105-b8b39380-9b1f-11eb-853c-cc7c1db448a4.png)
 
 
 #### Azure Data Explorer
+
+Azure Data Explorer (ADX) was is a fully managed data analytics service for near real-time analysis of data in large volumes from different sources such as web applications, websites and IoT devices.  Azure Data Explorer makes it simple to ingest data and enables the user to execute complex queries in near real time. 
 
 ![image](https://user-images.githubusercontent.com/4485129/113469767-edfc1980-946d-11eb-9843-67359a7beafa.png)
 
