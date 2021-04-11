@@ -1,4 +1,27 @@
-AWS Systems Manager provides its users visibility and control of their infrastructure on AWS. It has a unified user interface so one can view operational data from multiple AWS services and lets the user to automate operational tasks across AWS resources.Systems Manager, can group resources, like Amazon EC2 instances, Amazon S3 buckets, or Amazon RDS instances, by application, view operational data for monitoring and troubleshooting, and act on groups of resources.
+# AWS Run Commands on an EC2 Instance using System Manager
+
+</details>
+### AWS Systems Manager
+
+AWS Systems Manager provides the admins visibility and control over the machines deployed on AWS. 
+It provides an integrated UI of for multiple AWS services so admins can view operational data from multiple AWS services.
+It allows user to automate operational tasks across various AWS resources.
+Systems Manager, can group resources, like Amazon EC2 instances, Amazon S3 buckets, or Amazon RDS instances, by application, view operational data for monitoring and troubleshooting, and act on groups of resources.
+
+* Hybrid Environment Management
+* Quick problem detection
+* Security and Compliance Maintenance
+* Easy Automation
+* Improve Visibility and Control
+
+### SSM Agent
+It is software that allows Systems Manager to update, manage, and configure machines. It must be installed on each instance to use with Systems Manager
+Generally it is preinstalled with a lot of Amazon Machine Images (AMIs) but has to be installed on other achines including other VM or on premesis machines.
+
+### Run Command
+Actions that are performed by SSM on your instances are defined by Systems Manager.
+
+</details>
 
 ## AWS Architecture 
 
@@ -97,8 +120,7 @@ Introduction
 
 1. Create a Security Group for Your Amazon EC2 Instance
 2. Launch Your EC2 Instance
-   * 1
-   * 2
+
 </details>
 
 
