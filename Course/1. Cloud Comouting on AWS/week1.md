@@ -10,9 +10,7 @@
 #### Load Balancer Additional Information
 <details>
 
-##### Load Balancer (Additional Information)
-
-A. Network Load Balancer
+##### A. Network Load Balancer
 
 A Network Load Balancer functions at the fourth layer of the Open Systems Interconnection (OSI) model. It can handle millions of requests per second. After the load balancer receives a connection request, it selects a target from the target group for the default rule. It attempts to open a TCP connection to the selected target on the port specified in the listener configuration.
 
@@ -28,7 +26,7 @@ Read more about AWS NLB here.
 https://docs.aws.amazon.com/elasticloadbalancing/latest/network/introduction.html
  
 
-B. Application Load Balancer
+##### B. Application Load Balancer
 
 Recently, some additional features of the load balancer have been introduced. The summary of the ALB capabilities are as follows:
 
