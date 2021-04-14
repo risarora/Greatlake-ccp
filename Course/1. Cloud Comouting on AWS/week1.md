@@ -7,6 +7,9 @@
 ### Module 2b - AWS EC2 Step 3 - Advanced Features Part II (~10
 ### Module 3 - How to SSH in to an EC2 Instance (~15mins)
 ### Module 4 - Load Balancing, Fault Tolerance & CloudWatch(~1hr)
+
+![image](https://user-images.githubusercontent.com/4485129/114665766-0cd69780-9d1b-11eb-9680-4a0aeafa9f70.png)
+
 #### Load Balancer Additional Information
 <details>
 
