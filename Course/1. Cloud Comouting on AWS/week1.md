@@ -1,18 +1,17 @@
 
 ## Week 1 - Learning Material - Compute, Organization & IAM (~ 3.5 Hours)
 
-<details>
-  <summary>Click to expand!</summary>
- 
 ### Module 1 - Core Building Blocks, Abstraction, AWS Console (~20mins)
 ### Module 2 - Compute - Elastic Compute Cloud or EC2 (~1hr)
 ### Module 2a - AWS EC2 Step 3 - Advanced Features Part I (~25mins
 ### Module 2b - AWS EC2 Step 3 - Advanced Features Part II (~10
 ### Module 3 - How to SSH in to an EC2 Instance (~15mins)
 ### Module 4 - Load Balancing, Fault Tolerance & CloudWatch(~1hr)
-#### Load Balancer Additional
+#### Load Balancer Additional Information
 <details>
-Load Balancer (Additional Information)
+
+##### Load Balancer (Additional Information)
+
 A. Network Load Balancer
 
 A Network Load Balancer functions at the fourth layer of the Open Systems Interconnection (OSI) model. It can handle millions of requests per second. After the load balancer receives a connection request, it selects a target from the target group for the default rule. It attempts to open a TCP connection to the selected target on the port specified in the listener configuration.
@@ -26,7 +25,7 @@ For TCP traffic, the load balancer selects a target using a flow hash algorithm 
 NLB is a great option for use cases where the client needs to keep the TCP connection open for long periods of time. If we use this for web applications using http(s) then we will observe that all the requests for a given user (browser instance) will always connect to a single backend web/application server.
 
 Read more about AWS NLB here.
-
+https://docs.aws.amazon.com/elasticloadbalancing/latest/network/introduction.html
  
 
 B. Application Load Balancer
@@ -38,10 +37,11 @@ Recently, some additional features of the load balancer have been introduced. Th
 2. Least Outstanding Requests for ALB - You can now balance requests across targets based on the target with the lowest number of outstanding requests.
 
 You can read the very short blog here.
+https://aws.amazon.com/blogs/aws/aws-load-balancer-update-lots-of-new-features-for-you/
 
 </details>
 
 ### Module 5 - Windows EC2 Instance, Instance Pricing (~ 15mins)
 ### Module 6 - Identity & Access Management (~15mins)
 
-</details>
+
