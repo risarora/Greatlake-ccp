@@ -38,21 +38,50 @@ https://www.youtube.com/watch?v=nHVptUyHcyE
 
 ### Module 4 - Load Balancing, Fault Tolerance & CloudWatch(~1hr)
 <details>
+ 
 ![image](https://user-images.githubusercontent.com/4485129/114665766-0cd69780-9d1b-11eb-9680-4a0aeafa9f70.png)
 
 * Install Tomcat    
-![image](https://user-images.githubusercontent.com/4485129/114830435-d451bf00-9de9-11eb-8814-c5833edaa6f4.png)
+
+```
+ubuntu@ip-172-31-57-61:~$ sudo apt install apache2
+Reading package lists... Done
+.....
+ubuntu@ip-172-31-57-61:~$ 
+```
+
+* Server available   
+![image](https://user-images.githubusercontent.com/4485129/114836523-62c93f00-9df0-11eb-9486-952196e07444.png)
+
 
 * Update the index.html with server name
-![image](https://user-images.githubusercontent.com/4485129/114830339-bab07780-9de9-11eb-82f5-91aa2dacd560.png)
+```
+ubuntu@ip-172-31-57-61:~$ sudo su
+root@ip-172-31-57-61:/home/ubuntu# cd /var/www/html
+root@ip-172-31-57-61:/var/www/html# ls 
+index.html
+root@ip-172-31-57-61:/var/www/html# echo " Hello from Server 1 " > index.html 
+root@ip-172-31-57-61:/var/www/html# cat index.html 
+ Hello from Server 1 
+root@ip-172-31-57-61:/var/www/html#
+root@ip-172-31-57-61:/var/www/html# curl localhost
+ Hello from Server 1 
+root@ip-172-31-57-61:/var/www/html#
+
+```
+
+* Message from server 
+![image](https://user-images.githubusercontent.com/4485129/114837054-ea16b280-9df0-11eb-9fb8-d145abac1610.png)
 
 * Stop the tomcat service
 ![image](https://user-images.githubusercontent.com/4485129/114831050-8be6d100-9dea-11eb-8990-e4cdf26f2d40.png)
 
 </details>
-#### Load Balancer Additional Information
-<details>
 
+#### Load Balancer Additional Information
+
+<details>
+ 
 ##### A. Network Load Balancer
 
 A Network Load Balancer functions at the fourth layer of the Open Systems Interconnection (OSI) model. It can handle millions of requests per second. After the load balancer receives a connection request, it selects a target from the target group for the default rule. It attempts to open a TCP connection to the selected target on the port specified in the listener configuration.
