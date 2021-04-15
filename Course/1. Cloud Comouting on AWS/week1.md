@@ -98,6 +98,8 @@ root@ip-172-31-57-61:/var/www/html#
 * register Targets 
 ![image](https://user-images.githubusercontent.com/4485129/114853390-5c8f8e80-9e01-11eb-82a0-ccd096014fe7.png)
 
+* Targets registered   
+![image](https://user-images.githubusercontent.com/4485129/114854381-62d23a80-9e02-11eb-9953-7830a18cb845.png)
 
 
 #### Create Target Group
