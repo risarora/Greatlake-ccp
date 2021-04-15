@@ -4,8 +4,20 @@
 ### Module 1 - Core Building Blocks, Abstraction, AWS Console (~20mins)
 ### Module 2 - Compute - Elastic Compute Cloud or EC2 (~1hr)
 ### Module 2a - AWS EC2 Step 3 - Advanced Features Part I (~25mins
-### Module 2b - AWS EC2 Step 3 - Advanced Features Part II (~10
+### Module 2b - AWS EC2 Step 3 - Advanced Features Part II (~10 mins)
+
+![image](https://user-images.githubusercontent.com/4485129/114829617-f0089580-9de8-11eb-96a4-fc1ae411f751.png)
+
 ### Module 3 - How to SSH in to an EC2 Instance (~15mins)
+* Install Tomcat
+![image](https://user-images.githubusercontent.com/4485129/114830435-d451bf00-9de9-11eb-8814-c5833edaa6f4.png)
+
+* Update the index.html with server name
+![image](https://user-images.githubusercontent.com/4485129/114830339-bab07780-9de9-11eb-82f5-91aa2dacd560.png)
+
+* Stop the tomcat service
+![image](https://user-images.githubusercontent.com/4485129/114831050-8be6d100-9dea-11eb-8990-e4cdf26f2d40.png)
+
 ### Module 4 - Load Balancing, Fault Tolerance & CloudWatch(~1hr)
 
 ![image](https://user-images.githubusercontent.com/4485129/114665766-0cd69780-9d1b-11eb-9680-4a0aeafa9f70.png)
