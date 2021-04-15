@@ -9,7 +9,34 @@
 ![image](https://user-images.githubusercontent.com/4485129/114829617-f0089580-9de8-11eb-96a4-fc1ae411f751.png)
 
 ### Module 3 - How to SSH in to an EC2 Instance (~15mins)
-* Install Tomcat
+
+<details>
+ The following options are available to login via SSH from a Windows machine
+
+1. Using Putty [Recommended]
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html
+https://www.youtube.com/watch?v=bi7ow5NGC-U
+
+2. Using the Windows Terminal App from the Windows Store
+Only available on Windows 10 version 18362.0 or higher
+https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab
+Has direct support for SSH commands
+
+3. Installing Linux on Windows 10
+https://itsfoss.com/install-bash-on-windows/
+
+4. Using GitBash terminal
+http://guides.beanstalkapp.com/version-control/git-on-windows.html
+https://www.youtube.com/watch?v=rWboGsc6CqI
+
+5. Chrome Secure Shell App
+This application is an alternative way to SSH to instances in the cloud.This is not an environment to run scripts in your local machine, a local terminal window will be required for that
+https://chrome.google.com/webstore/detail/secure-shell-app/pnhechapfaindjhompbnflcldabbghjo?hl=en-GB
+https://www.youtube.com/watch?v=nHVptUyHcyE
+
+</details>
+
+* Install Tomcat    
 ![image](https://user-images.githubusercontent.com/4485129/114830435-d451bf00-9de9-11eb-8814-c5833edaa6f4.png)
 
 * Update the index.html with server name
