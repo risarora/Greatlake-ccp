@@ -101,18 +101,17 @@ root@ip-172-31-57-61:/var/www/html#
 * Targets registered   
 ![image](https://user-images.githubusercontent.com/4485129/114854381-62d23a80-9e02-11eb-9953-7830a18cb845.png)
 
+* Connect to Load Balancer   
+![image](https://user-images.githubusercontent.com/4485129/114855834-ff490c80-9e03-11eb-9707-b79003f293d3.png)
 
-#### Create Target Group
+![image](https://user-images.githubusercontent.com/4485129/114855896-10921900-9e04-11eb-84b8-bfa7a70df96f.png)
+![image](https://user-images.githubusercontent.com/4485129/114855929-18ea5400-9e04-11eb-9e06-46c258e43690.png)
 
-![image](https://user-images.githubusercontent.com/4485129/114840374-6068e400-9df4-11eb-9a74-f881a2f9cf23.png)
+* Kill a EC2 Server
+![image](https://user-images.githubusercontent.com/4485129/114856302-90b87e80-9e04-11eb-8be3-b1624ea5a311.png)
 
-![image](https://user-images.githubusercontent.com/4485129/114840444-71b1f080-9df4-11eb-8750-50a9a33ff8b6.png)
-
-![image](https://user-images.githubusercontent.com/4485129/114840574-8f7f5580-9df4-11eb-8551-d2ecce6b48aa.png)
-
-* Target Group not yet associated with a load balancer
-![image](https://user-images.githubusercontent.com/4485129/114840757-bfc6f400-9df4-11eb-8f95-9bd2f0d55087.png)
-
+* Node Marked unhealthy in Target Group
+![image](https://user-images.githubusercontent.com/4485129/114856380-a8900280-9e04-11eb-9705-56a0d2bb5fe5.png)
 
 
 #### Associate Load Balancer with Target Group
