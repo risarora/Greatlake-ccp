@@ -79,9 +79,6 @@ root@ip-172-31-57-61:/var/www/html#
 ![image](https://user-images.githubusercontent.com/4485129/114839930-edf80400-9df3-11eb-90b5-3b03a436a456.png)
 
 
-* Stop the tomcat service
-![image](https://user-images.githubusercontent.com/4485129/114831050-8be6d100-9dea-11eb-8990-e4cdf26f2d40.png)
-
 ### Create Load Balancer
 
 ![image](https://user-images.githubusercontent.com/4485129/114850836-cd817700-9dfe-11eb-9352-ebb3cdf88f30.png)
@@ -114,7 +111,11 @@ root@ip-172-31-57-61:/var/www/html#
 ![image](https://user-images.githubusercontent.com/4485129/114856380-a8900280-9e04-11eb-9705-56a0d2bb5fe5.png)
 
 
-#### Associate Load Balancer with Target Group
+#### Additinal 
+* Stickiness 
+![image](https://user-images.githubusercontent.com/4485129/114858117-b0e93d00-9e06-11eb-930f-4c17bc2c3199.png)
+
+
 
 </details>
 
@@ -157,4 +158,25 @@ https://aws.amazon.com/blogs/aws/aws-load-balancer-update-lots-of-new-features-f
 ### References 
 
 1. https://tutorialsdojo.com/aws-cheat-sheet-aws-elastic-load-balancing-elb/
-2. https://tutorialsdojo.com/aws-cheat-sheet-aws-elastic-load-balancing-elb/
+2. Commmands Used
+```
+# Update Server
+sudo apt update -y
+# Install Tomcat
+sudo apt install apache2 -y
+
+# Add Server based message in tomcat  
+cd /var/www/html
+ls 
+sudo su
+echo " Hello from Server 4 " > index.html 
+cat index.html 
+curl localhost
+echo "ok" > "health.html"
+
+# Stop Tomcat Service 
+sudo service apache2 stop
+service apache2 status
+
+```
+3. 
