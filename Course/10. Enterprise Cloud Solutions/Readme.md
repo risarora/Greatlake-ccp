@@ -19,10 +19,10 @@
 ### Module 12 - Cloud BPM Part 3 (~45mins)
 ### Module 13 - Cloud BPM Part 4 (~45mins)
 ### Module 14 - Cloud BPM Part 5 (~45mins)
-* state-machine-v3.json
-* loan-application.zip
-* lambda-functions.zip
-* human-approval-app.zip
+* [lambda-functions.zip](https://github.com/risarora/greatlearning-pgp-cc/files/6317849/lambda-functions.zip)
+* [loan-application.zip](https://github.com/risarora/greatlearning-pgp-cc/files/6317851/loan-application.zip)
+* [human-approval-app.zip](https://github.com/risarora/greatlearning-pgp-cc/files/6317848/human-approval-app.zip)
+* [state-machine-v3.json.zip](https://github.com/risarora/greatlearning-pgp-cc/files/6317855/state-machine-v3.json.zip)
 
 ## Practice Assessments
 * Lab_01_DevelopingOnCloud_CloudAPI_CustomApplicationDevelopment.pdf
