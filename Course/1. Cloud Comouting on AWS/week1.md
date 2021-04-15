@@ -75,12 +75,28 @@ root@ip-172-31-57-61:/var/www/html#
 * Message from server 
 ![image](https://user-images.githubusercontent.com/4485129/114837054-ea16b280-9df0-11eb-9fb8-d145abac1610.png)
 
-* Server health check 
+* Server health check      
 ![image](https://user-images.githubusercontent.com/4485129/114839930-edf80400-9df3-11eb-90b5-3b03a436a456.png)
 
 
 * Stop the tomcat service
 ![image](https://user-images.githubusercontent.com/4485129/114831050-8be6d100-9dea-11eb-8990-e4cdf26f2d40.png)
+
+
+#### Create Target Group
+
+![image](https://user-images.githubusercontent.com/4485129/114840374-6068e400-9df4-11eb-9a74-f881a2f9cf23.png)
+
+![image](https://user-images.githubusercontent.com/4485129/114840444-71b1f080-9df4-11eb-8750-50a9a33ff8b6.png)
+
+![image](https://user-images.githubusercontent.com/4485129/114840574-8f7f5580-9df4-11eb-8551-d2ecce6b48aa.png)
+
+* Target Group not yet associated with a load balancer
+![image](https://user-images.githubusercontent.com/4485129/114840757-bfc6f400-9df4-11eb-8f95-9bd2f0d55087.png)
+
+
+
+#### Associate Load Balancer with Target Group
 
 </details>
 
