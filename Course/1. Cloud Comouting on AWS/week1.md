@@ -82,6 +82,23 @@ root@ip-172-31-57-61:/var/www/html#
 * Stop the tomcat service
 ![image](https://user-images.githubusercontent.com/4485129/114831050-8be6d100-9dea-11eb-8990-e4cdf26f2d40.png)
 
+### Create Load Balancer
+
+![image](https://user-images.githubusercontent.com/4485129/114850836-cd817700-9dfe-11eb-9352-ebb3cdf88f30.png)
+
+* associate Loab balancer with atleast two sub nets  
+![image](https://user-images.githubusercontent.com/4485129/114853665-a7110b00-9e01-11eb-99ba-f28ead7439cb.png)
+
+* Create Target Group 
+![image](https://user-images.githubusercontent.com/4485129/114853273-3d90fc80-9e01-11eb-9631-3029301e30e3.png)
+
+* Setup Health Check    
+![image](https://user-images.githubusercontent.com/4485129/114853148-1fc39780-9e01-11eb-83a8-f71089680bf4.png)
+
+* register Targets 
+![image](https://user-images.githubusercontent.com/4485129/114853390-5c8f8e80-9e01-11eb-82a0-ccd096014fe7.png)
+
+
 
 #### Create Target Group
 
