@@ -20,6 +20,8 @@
 ## Cloud Adoption & Migration
 [Cloud Adoption and Architectural Best Practices.pdf](https://github.com/risarora/greatlearning-pgp-cc/files/6317803/Cloud.Adoption.and.Architectural.Best.Practices.pdf)
 
+##### "AWS Well-Architected Framework" has been developed to help cloud architects build secure, high-performing, resilient, and efficient infrastructure for their applications. Based on five pillars — operational excellence, security, reliability, performance efficiency, and cost optimization
+
 ### AWS Well Architected Framework
 AWS Well-Architected helps cloud architects build secure, high-performing, resilient, and efficient infrastructure for their applications and workloads. Based on five pillars — operational excellence, security, reliability, performance efficiency, and cost optimization — AWS Well-Architected provides a consistent approach for customers and partners to evaluate architectures, and implement designs that can scale over time.
 Read more here https://aws.amazon.com/architecture/well-architected
