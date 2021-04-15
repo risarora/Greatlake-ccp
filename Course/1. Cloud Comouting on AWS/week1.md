@@ -36,6 +36,10 @@ https://www.youtube.com/watch?v=nHVptUyHcyE
 
 </details>
 
+### Module 4 - Load Balancing, Fault Tolerance & CloudWatch(~1hr)
+<details>
+![image](https://user-images.githubusercontent.com/4485129/114665766-0cd69780-9d1b-11eb-9680-4a0aeafa9f70.png)
+
 * Install Tomcat    
 ![image](https://user-images.githubusercontent.com/4485129/114830435-d451bf00-9de9-11eb-8814-c5833edaa6f4.png)
 
@@ -45,10 +49,7 @@ https://www.youtube.com/watch?v=nHVptUyHcyE
 * Stop the tomcat service
 ![image](https://user-images.githubusercontent.com/4485129/114831050-8be6d100-9dea-11eb-8990-e4cdf26f2d40.png)
 
-### Module 4 - Load Balancing, Fault Tolerance & CloudWatch(~1hr)
-
-![image](https://user-images.githubusercontent.com/4485129/114665766-0cd69780-9d1b-11eb-9680-4a0aeafa9f70.png)
-
+</details>
 #### Load Balancer Additional Information
 <details>
 
@@ -84,4 +85,7 @@ https://aws.amazon.com/blogs/aws/aws-load-balancer-update-lots-of-new-features-f
 ### Module 5 - Windows EC2 Instance, Instance Pricing (~ 15mins)
 ### Module 6 - Identity & Access Management (~15mins)
 
+### References 
 
+1. https://tutorialsdojo.com/aws-cheat-sheet-aws-elastic-load-balancing-elb/
+2. https://tutorialsdojo.com/aws-cheat-sheet-aws-elastic-load-balancing-elb/
