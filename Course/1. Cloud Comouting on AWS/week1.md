@@ -63,7 +63,9 @@ index.html
 root@ip-172-31-57-61:/var/www/html# echo " Hello from Server 1 " > index.html 
 root@ip-172-31-57-61:/var/www/html# cat index.html 
  Hello from Server 1 
-root@ip-172-31-57-61:/var/www/html#
+root@ip-172-31-57-61:/var/www/html# echo "ok" > health.html
+root@ip-172-31-57-61:/var/www/html# cat health.html
+ ok
 root@ip-172-31-57-61:/var/www/html# curl localhost
  Hello from Server 1 
 root@ip-172-31-57-61:/var/www/html#
@@ -72,6 +74,10 @@ root@ip-172-31-57-61:/var/www/html#
 
 * Message from server 
 ![image](https://user-images.githubusercontent.com/4485129/114837054-ea16b280-9df0-11eb-9fb8-d145abac1610.png)
+
+* Server health check 
+![image](https://user-images.githubusercontent.com/4485129/114839930-edf80400-9df3-11eb-90b5-3b03a436a456.png)
+
 
 * Stop the tomcat service
 ![image](https://user-images.githubusercontent.com/4485129/114831050-8be6d100-9dea-11eb-8990-e4cdf26f2d40.png)
