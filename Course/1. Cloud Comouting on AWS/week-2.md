@@ -75,9 +75,15 @@ PS D:\Cloud\Projects\Project1>
 * Elastic Size i.e. expanding
 * Can be Mounted on multiple EC2 machines in read write mode. 
 ### Module 13 - Object Storage - Simple Storage Service(~1hr15mins)
-* Drop file to S3
-* API available to access files stored on S3
-* 
+Drop file to S3, API available to access files stored on S3 
+
+* Object Based Storage 
+* Object Life Cycle
+* Versionining
+* Bucket Creation, Access, Policies
+* Cross Region Replication
+* S3 Events
+
 ![image](https://user-images.githubusercontent.com/4485129/114984841-c0709080-9eaf-11eb-93fe-e2a2b280bbea.png)
 
 ### S3 Reference
