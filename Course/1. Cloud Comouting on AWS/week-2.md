@@ -48,6 +48,10 @@ echo "ok" > /var/www/html/health.htm
 * One to one mapping to EC2
 * Same AZ as EC2 machine 
 * Fixed size
+
+![image](https://user-images.githubusercontent.com/4485129/114986596-cff0d900-9eb1-11eb-9973-a17663d0408f.png)
+
+
 ### Module 12 - Elastic File System(~15mins)
 * One to many mapping with EC2
 * Elastic Size i.e. expanding
