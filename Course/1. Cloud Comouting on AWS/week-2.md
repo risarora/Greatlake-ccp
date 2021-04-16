@@ -40,9 +40,23 @@ echo "ok" > /var/www/html/health.htm
   <summary>Click to expand!</summary>
 
 ### Module 10 - Forms of Storage on Cloud(~15mins)
-### Module 11 - Block Storage - EBS(~30mins)
+* **Instance Storage** - Native storage internal to **EC2**
+* **Block Storage** aka **EBS** 
+* **File System** 
+* **Object Based Storage**
+### Module 11 - Elastic Block Storage - EBS(~30mins)
+* One to one mapping to EC2
+* Same AZ as EC2 machine 
+* Fixed size
 ### Module 12 - Elastic File System(~15mins)
+* One to many mapping with EC2
+* Elastic Size i.e. expanding
+* Can be Mounted on multiple EC2 machines in read write mode. 
 ### Module 13 - Object Storage - Simple Storage Service(~1hr15mins)
+* Drop file to S3
+* API available to access files stored on S3
+* 
+![image](https://user-images.githubusercontent.com/4485129/114984841-c0709080-9eaf-11eb-93fe-e2a2b280bbea.png)
 
 ### S3 Reference
 <details>
