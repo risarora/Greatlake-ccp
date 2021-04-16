@@ -51,6 +51,24 @@ echo "ok" > /var/www/html/health.htm
 
 ![image](https://user-images.githubusercontent.com/4485129/114986596-cff0d900-9eb1-11eb-9973-a17663d0408f.png)
 
+```
+PS D:\Cloud\Projects\Project1> aws ebs start-snapshot --volume-size 100000
+
+An error occurred (ValidationException) when calling the StartSnapshot operation: Invalid volume size: 100000
+PS D:\Cloud\Projects\Project1> aws ebs start-snapshot --volume-size 10    
+{
+    "SnapshotId": "snap-049409d3d1e98658a",
+    "OwnerId": "689161371202",
+    "Status": "pending",
+    "StartTime": "2021-04-16T13:23:02.442000+05:30",
+    "VolumeSize": 10,
+    "BlockSize": 524288
+}
+
+PS D:\Cloud\Projects\Project1>                                            
+```
+![image](https://user-images.githubusercontent.com/4485129/114991547-522fcc00-9eb7-11eb-80e5-0aa0f148ff07.png)
+
 
 ### Module 12 - Elastic File System(~15mins)
 * One to many mapping with EC2
