@@ -24,6 +24,29 @@ echo "ok" > /var/www/html/health.htm
 ### Module 7g - Cleanup
 ### Module 7h - Auto Scaling [Old UI] (~1hr)
 
+</details>
+</details>
+
+## AMI and CLI
+<details>
+  <summary>Click to expand!</summary>
+
+### Module 8 - Amazon Machine Image or AMI (~15mins)
+### Module 9 - AWS Command Line Interface (~40mins)
+</details>
+
+## Storage
+<details>
+  <summary>Click to expand!</summary>
+
+### Module 10 - Forms of Storage on Cloud(~15mins)
+### Module 11 - Block Storage - EBS(~30mins)
+### Module 12 - Elastic File System(~15mins)
+### Module 13 - Object Storage - Simple Storage Service(~1hr15mins)
+
+### S3 Reference
+<details>
+ 
 [DIY _ Mounting S3 on local filesystem using S3FS-FUSE .pdf](https://github.com/risarora/Greatlake-ccp/files/6279920/DIY._.Mounting.S3.on.local.filesystem.using.S3FS-FUSE.pdf)
 
 #### S3 Transition options
@@ -53,24 +76,6 @@ Important - Generally S3 cannot offer the same performance or semantics as a loc
 
 This is for additional reference only.
 
-</details>
-</details>
-
-## AMI and CLI
-<details>
-  <summary>Click to expand!</summary>
-
-### Module 8 - Amazon Machine Image or AMI (~15mins)
-### Module 9 - AWS Command Line Interface (~40mins)
-</details>
-
-## Storage
-<details>
-  <summary>Click to expand!</summary>
-
-### Module 10 - Forms of Storage on Cloud(~15mins)
-### Module 11 - Block Storage - EBS(~30mins)
-### Module 12 - Elastic File System(~15mins)
-### Module 13 - Object Storage - Simple Storage Service(~1hr15mins)
+ </details>
 </details>
 
