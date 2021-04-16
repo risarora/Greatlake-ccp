@@ -80,6 +80,7 @@ Drop file to S3, API available to access files stored on S3
 * Object Based Storage 
 * Object Life Cycle
 * Versionining
+   * Consistency - Strong for new Objects , Eventual consistency for existing objects.
 * Bucket Creation, Access, Policies
 * Cross Region Replication
 * S3 Events
