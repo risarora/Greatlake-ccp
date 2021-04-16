@@ -47,3 +47,6 @@
 ### Module 21 - Web Application Firewall Classic (~1hr)
 ### Module 22 - AWS WAF - Next Generation (~40mins)
 
+Notes :
+
+[CloudComputingOnAWS-v1.1-compressed.pdf](https://github.com/risarora/greatlearning-pgp-cc/files/6324251/CloudComputingOnAWS-v1.1-compressed.pdf)
