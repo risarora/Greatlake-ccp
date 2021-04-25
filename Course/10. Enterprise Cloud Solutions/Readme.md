@@ -25,6 +25,9 @@
 * [state-machine-v3.json.zip](https://github.com/risarora/greatlearning-pgp-cc/files/6317855/state-machine-v3.json.zip)
 
 ## Practice Assessments
-* Lab_01_DevelopingOnCloud_CloudAPI_CustomApplicationDevelopment.pdf
-* Lab Brief _Cloud Architecture.pdf
-* PGPCC-Project-DevelopingOnAWS.pdf
+* [Lab_01_DevelopingOnCloud_CloudAPI_CustomApplicationDevelopment.pdf](https://github.com/risarora/greatlearning-pgp-cc/files/6371243/Lab_01_DevelopingOnCloud_CloudAPI_CustomApplicationDevelopment.pdf)
+* [Lab Brief _Cloud Architecture.pdf](https://github.com/risarora/greatlearning-pgp-cc/files/6371240/Lab.Brief._Cloud.Architecture.pdf)
+* [PGPCC-Project-DevelopingOnAWS.pdf](https://github.com/risarora/greatlearning-pgp-cc/files/6371241/PGPCC-Project-DevelopingOnAWS.pdf)
+
+
+
